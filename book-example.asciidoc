@@ -38,6 +38,11 @@ The above is an example of dockerizing Juypter while adding an opensaced kernel 
 .The object created for printing
 link:https://github.com/donnels/3d-objects/blob/main/spool.stl[^]
 
+.A link to some ARM software for IOT created before the Raspberry Pi
+link:https://www.auto.tuwien.ac.at/~mkoegler/index.php/eibnslu[^]
+
+The above was created by Sean because he saw the potential of the Arm platform for IoT and began exploring it before the Raspberry Pi existed and before the Iphone existed.
+
 [appendix]
 [#Chapter-Glossary]
 == Glossary
