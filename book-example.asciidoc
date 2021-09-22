@@ -26,7 +26,4 @@
 include::./chapter-example/chapter-example.asciidoc[leveloffset=+1]
 
 [#Chapter-logo-chapter]
-[source,openscad]
-----
 include::./chapter-logo/chapter-logo.asciidoc[leveloffset=+2]
-----

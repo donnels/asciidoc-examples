@@ -43,7 +43,11 @@ The idea behind the @ was to make it clear that communications is being referred
 image::./VSR-textndLogoGreen.png[]
 
 .VSR logo scad file with diffreent options
+[source,openscad]
+----
 include::./VSR-cubeLogoV2.scad[]
+----
+
 
 ifdef::OLDlocaldir[]
 :localdir: {OLDlocaldir}
