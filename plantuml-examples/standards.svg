@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1093px" preserveAspectRatio="none" style="width:1315px;height:1093px;background:#FFFFFF;" version="1.1" viewBox="0 0 1315 1093" width="1315px" zoomAndPan="magnify"><defs><linearGradient id="g1hb4zdga8hzyl0" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#AAAAFF"/></linearGradient><linearGradient id="g1hb4zdga8hzyl1" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#BB5555"/></linearGradient><filter height="300%" id="f1hb4zdga8hzyl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter><linearGradient id="g1hb4zdga8hzyl2" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#008000"/></linearGradient><linearGradient id="g1hb4zdga8hzyl3" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#FF0000"/></linearGradient><linearGradient id="g1hb4zdga8hzyl4" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#FFA500"/></linearGradient><linearGradient id="g1hb4zdga8hzyl5" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#AAAAFF"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient></defs><g><rect fill="url(#g1hb4zdga8hzyl0)" height="1093" style="stroke:none;stroke-width:1.0;" width="1315" x="0" y="0"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="294" x="504" y="17.4023">Standards vs flexibility vs stability</text><!--MD5=[f425cff311185548453715f8c0777a7e]
+cluster commodities--><rect fill="url(#g1hb4zdga8hzyl1)" filter="url(#f1hb4zdga8hzyl)" height="651" style="stroke:#000000;stroke-width:1.5;" width="852" x="450" y="169.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="94" x="829" y="184.7344">commodities</text><!--MD5=[7579d5565d2521d5936cec86ed3dadee]
+cluster service--><rect fill="url(#g1hb4zdga8hzyl2)" filter="url(#f1hb4zdga8hzyl)" height="92" style="stroke:#000000;stroke-width:1.5;" width="786" x="517" y="28.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="885" y="43.7344">service</text><!--MD5=[83bea6689fc2edc26c67d839c00e1a2d]
+entity AL1--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="120" x="849" y="772.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="859" y="789.2344">Ethernet/MPLS</text><!--MD5=[85fc3c57d7bf9d826fc461b03784e8d4]
+entity AL2--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="32" x="893" y="647.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="903" y="663.7344">IP</text><!--MD5=[5c1bc1fa1a16cf5a9ace4cf92f5d82dd]
+entity AL3--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="71" x="873.5" y="514.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="883.5" y="530.7344">Overlay</text><!--MD5=[fa35731fc07da595dd26ce46ce3bdee3]
+entity AL4--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="32" x="893" y="251.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="903" y="268.2344">IP</text><path d="M594,763.1992 L594,803.8203 A0,0 0 0 0 594,803.8203 L814,803.8203 A0,0 0 0 0 814,803.8203 L814,787.6992 L848.95,783.6992 L814,779.6992 L814,773.1992 L804,763.1992 L594,763.1992 A0,0 0 0 0 594,763.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M804,763.1992 L804,773.1992 L814,773.1992 L804,763.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="600" y="780.7676">Highly standardised</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="600" y="796.0781">Can choose from few standards</text><path d="M710.5,637.6992 L710.5,678.3203 A0,0 0 0 0 710.5,678.3203 L857.5,678.3203 A0,0 0 0 0 857.5,678.3203 L857.5,662.1992 L892.98,658.1992 L857.5,654.1992 L857.5,647.6992 L847.5,637.6992 L710.5,637.6992 A0,0 0 0 0 710.5,637.6992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M847.5,637.6992 L847.5,647.6992 L857.5,647.6992 L847.5,637.6992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="716.5" y="655.2676">Highly standardised</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="716.5" y="670.5781">Just 2 real choices</text><path d="M960.5,204.1992 L960.5,258.6992 L925.3,262.6992 L960.5,266.6992 L960.5,321.373 A0,0 0 0 0 960.5,321.373 L1285.5,321.373 A0,0 0 0 0 1285.5,321.373 L1285.5,214.1992 L1275.5,204.1992 L960.5,204.1992 A0,0 0 0 0 960.5,204.1992 " fill="url(#g1hb4zdga8hzyl3)" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1275.5,204.1992 L1275.5,214.1992 L1285.5,214.1992 L1275.5,204.1992 " fill="url(#g1hb4zdga8hzyl3)" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="304" x="966.5" y="221.7676">ANY changes here or in lower layers cascade up.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="966.5" y="237.0781">This means that if the application is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="974.5" y="252.3887">running it depends on the lower layers being</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="974.5" y="267.6992">stable</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="270" x="974.5" y="283.0098">This is why as soon as the first application</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="232" x="974.5" y="298.3203">goes into testing the network can no</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="974.5" y="313.6309">longer be easily changed or tested.</text><path d="M601.5,497.1992 L601.5,553.1309 A0,0 0 0 0 601.5,553.1309 L838.5,553.1309 A0,0 0 0 0 838.5,553.1309 L838.5,529.1992 L873.38,525.1992 L838.5,521.1992 L838.5,507.1992 L828.5,497.1992 L601.5,497.1992 A0,0 0 0 0 601.5,497.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M828.5,497.1992 L828.5,507.1992 L838.5,507.1992 L828.5,497.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="607.5" y="514.7676">Highly standardised</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="607.5" y="530.0781">a few different choices but limited</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="607.5" y="545.3887">examples: DSLW+, GRE, IPSEC, etc</text><path d="M979.5,504.6992 L979.5,521.1992 L944.82,525.1992 L979.5,529.1992 L979.5,545.3203 A0,0 0 0 0 979.5,545.3203 L1184.5,545.3203 A0,0 0 0 0 1184.5,545.3203 L1184.5,514.6992 L1174.5,504.6992 L979.5,504.6992 A0,0 0 0 0 979.5,504.6992 " fill="url(#g1hb4zdga8hzyl4)" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1174.5,504.6992 L1174.5,514.6992 L1184.5,514.6992 L1174.5,504.6992 " fill="url(#g1hb4zdga8hzyl4)" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="985.5" y="522.2676">Flaxibility here is in topology</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="989.5" y="537.5781"/><path d="M466,242.1992 L466,282.8203 A0,0 0 0 0 466,282.8203 L858,282.8203 A0,0 0 0 0 858,282.8203 L858,266.6992 L892.77,262.6992 L858,258.6992 L858,252.1992 L848,242.1992 L466,242.1992 A0,0 0 0 0 466,242.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M848,242.1992 L848,252.1992 L858,252.1992 L848,242.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="472" y="259.7676">Highly standardised and more choices than in the underlay</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="472" y="275.0781">examples: SNA, IP, IPv6, etc</text><!--MD5=[87fadf60a4b61c9be0f58547bdbcd210]
+entity AL5--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="98" x="860" y="72.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="870" y="89.2344">Application</text><path d="M533.5,71.1992 L533.5,96.5098 A0,0 0 0 0 533.5,96.5098 L824.5,96.5098 A0,0 0 0 0 824.5,96.5098 L824.5,89.1992 L859.85,83.6992 L824.5,81.1992 L824.5,81.1992 L814.5,71.1992 L533.5,71.1992 A0,0 0 0 0 533.5,71.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M814.5,71.1992 L814.5,81.1992 L824.5,81.1992 L814.5,71.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="270" x="539.5" y="88.7676">Highly flexible and effectively the "service"</text><path d="M993,63.1992 L993,79.6992 L958.18,83.6992 L993,87.6992 L993,103.8203 A0,0 0 0 0 993,103.8203 L1287,103.8203 A0,0 0 0 0 1287,103.8203 L1287,73.1992 L1277,63.1992 L993,63.1992 A0,0 0 0 0 993,63.1992 " fill="url(#g1hb4zdga8hzyl2)" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1277,63.1992 L1277,73.1992 L1287,73.1992 L1277,63.1992 " fill="url(#g1hb4zdga8hzyl2)" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="273" x="999" y="80.7676">Changes here may affect other applications</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="999" y="96.0781">but tend not to matter to the network</text><!--MD5=[769f808af18dc41ae3926100e72323f0]
+entity L1--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="883.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="899.7344">layer 1</text><!--MD5=[5fa073e7557ceedd5ffab818dd99475f]
+entity L2--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="772.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="789.2344">layer 2</text><!--MD5=[cdde8203267486659c77309d7f77d4ce]
+entity L3--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="647.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="663.7344">layer 3</text><!--MD5=[6028a18b9c459cd39f6b03b8fed084fc]
+entity L4--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="514.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="530.7344">layer 4</text><!--MD5=[16f0e411f887cdceddc4d0567ce69ff7]
+entity L5--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="398.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="414.7344">layer 5</text><!--MD5=[73db4ffefb788c254a76358e9722dc73]
+entity L6--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="251.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="268.2344">layer 6</text><!--MD5=[1ec033f08b0b8397c544e80a830c976e]
+entity L7--><rect fill="url(#g1hb4zdga8hzyl0)" filter="url(#f1hb4zdga8hzyl)" height="22.4883" style="stroke:#000000;stroke-width:1.5;" width="66" x="7" y="72.6992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="17" y="89.2344">layer 7</text><path d="M108.5,497.1992 L108.5,521.1992 L73.39,525.1992 L108.5,529.1992 L108.5,553.1309 A0,0 0 0 0 108.5,553.1309 L433.5,553.1309 A0,0 0 0 0 433.5,553.1309 L433.5,507.1992 L423.5,497.1992 L108.5,497.1992 A0,0 0 0 0 108.5,497.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M423.5,497.1992 L423.5,507.1992 L433.5,507.1992 L423.5,497.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="261" x="114.5" y="514.7676">Port number allows standard connectivity</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="304" x="114.5" y="530.0781">AND limits us to using the 65000 of them per IP</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="114.5" y="545.3887">With carrier grade NAT a real problem</text><path d="M108.5,630.1992 L108.5,654.1992 L73.28,658.1992 L108.5,662.1992 L108.5,686.1309 A0,0 0 0 0 108.5,686.1309 L397.5,686.1309 A0,0 0 0 0 397.5,686.1309 L397.5,640.1992 L387.5,630.1992 L108.5,630.1992 A0,0 0 0 0 108.5,630.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M387.5,630.1992 L387.5,640.1992 L397.5,640.1992 L387.5,630.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="268" x="114.5" y="647.7676">IP addressing allows standard connectivity</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="114.5" y="663.0781">AND limits us to using the IP stack</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="114.5" y="678.3887">With IPv4 this is now a real problem</text><path d="M108.5,763.1992 L108.5,779.6992 L73.39,783.6992 L108.5,787.6992 L108.5,803.8203 A0,0 0 0 0 108.5,803.8203 L415.5,803.8203 A0,0 0 0 0 415.5,803.8203 L415.5,773.1992 L405.5,763.1992 L108.5,763.1992 A0,0 0 0 0 108.5,763.1992 " fill="#FBFB77" filter="url(#f1hb4zdga8hzyl)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M405.5,763.1992 L405.5,773.1992 L415.5,773.1992 L405.5,763.1992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="286" x="114.5" y="780.7676">MAC addressing allows standard connectivity</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="114.5" y="796.0781">AND limits us to 4096 VLANS</text><!--MD5=[188efd352ec43293f111d8a58780510c]
+link L7 to L6--><path d="M40,94.7192 C40,124.1592 40,210.4892 40,246.0892 " fill="none" id="L7-to-L6" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,251.3492,44,242.3492,40,246.3492,36,242.3492,40,251.3492" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="149.7676">depends on</text><!--MD5=[25267ac29102c8706085c13a0900a668]
+link L6 to L5--><path d="M40,274.0892 C40,299.1892 40,363.2192 40,392.7992 " fill="none" id="L6-to-L5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,397.8992,44,388.8992,40,392.8992,36,388.8992,40,397.8992" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="364.7676">depends on</text><!--MD5=[43e66c5f53adb447626f88ab79d7c79d]
+link L5 to L4--><path d="M40,420.3192 C40,440.2892 40,484.9192 40,508.6592 " fill="none" id="L5-to-L4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,513.9392,44,504.9392,40,508.9392,36,504.9392,40,513.9392" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="463.7676">depends on</text><!--MD5=[663bf2a85b92b3718277d68f034c1cfe]
+link L4 to L3--><path d="M40,536.4792 C40,559.3392 40,614.5192 40,641.6292 " fill="none" id="L4-to-L3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,646.9692,44,637.9692,40,641.9692,36,637.9692,40,646.9692" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="596.7676">depends on</text><!--MD5=[5e55e6158d3e1b3add0e42d55145954c]
+link L3 to L2--><path d="M40,669.3092 C40,690.9292 40,741.7792 40,767.3892 " fill="none" id="L3-to-L2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,772.4492,44,763.4492,40,767.4492,36,763.4492,40,772.4492" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="729.7676">depends on</text><!--MD5=[5b2f412e425766a3a046286eb6ff0181]
+link L2 to L1--><path d="M40,794.7092 C40,813.7492 40,855.2792 40,877.8492 " fill="none" id="L2-to-L1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="40,882.8892,44,873.8892,40,877.8892,36,873.8892,40,882.8892" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="41" y="849.7676">depends on</text><!--MD5=[6c66712db13f6d868a1acf161a9ed514]
+link AL5 to AL4--><path d="M909,94.7192 C909,124.1592 909,210.4892 909,246.0892 " fill="none" id="AL5-to-AL4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="909,251.3492,913,242.3492,909,246.3492,905,242.3492,909,251.3492" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="910" y="149.7676">depends on</text><!--MD5=[6dfec71c86056c181101074e7b71f2a9]
+link AL4 to AL3--><path d="M909,273.9092 C909,314.0392 909,461.0292 909,508.9692 " fill="none" id="AL4-to-AL3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="909,514.0592,913,505.0592,909,509.0592,905,505.0592,909,514.0592" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="910" y="414.2676">depends on</text><!--MD5=[530b272ca0d301fa669301c614c91ef3]
+link AL3 to AL2--><path d="M909,536.4792 C909,559.3392 909,614.5192 909,641.6292 " fill="none" id="AL3-to-AL2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="909,646.9692,913,637.9692,909,641.9692,905,637.9692,909,646.9692" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="910" y="596.7676">depends on</text><!--MD5=[2dc8c47af648a41cfe5ccc9027d00b76]
+link AL2 to AL1--><path d="M909,669.3092 C909,690.9292 909,741.7792 909,767.3892 " fill="none" id="AL2-to-AL1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="909,772.4492,913,763.4492,909,767.4492,905,763.4492,909,772.4492" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="910" y="729.7676">depends on</text><rect fill="url(#g1hb4zdga8hzyl5)" height="141.9063" rx="5" ry="5" style="stroke:#000000;stroke-width:1.0;" width="653" x="324" y="924.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="266" x="330" y="943.2227">- Implementing standards is important</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="344" x="330" y="959.7109">- Standards LIMIT felxibility at the layer they are at</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="332" x="330" y="976.1992">- Standards INCREASE flexibility for upper layers</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="346" x="330" y="992.6875">- Too many standards is the same as no standards</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="334" y="1009.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="641" x="330" y="1025.6641">- Keep in mind that as soon as an upper layer is in place the lower ones are limited in change.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="503" x="330" y="1042.1523">- The further down the stack you go the more destructive changes can be</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="518" x="330" y="1058.6406">- cabling, right at the bottom, can cause no end of problems when changed</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="111" x="595.5" y="1085.2617">Author Sean Donnellan</text><!--MD5=[bb85131a0c767da863dd74116ad55df4]
+@startuml
+title Standards vs flexibility vs stability
+footer Author Sean Donnellan
+skinparam BackgroundColor #fff/aaf
+skinparam CardBackgroundColor #fff/aaf
+skinparam LegendBackgroundColor #aaf/fff
+legend
+- Implementing standards is important
+- Standards LIMIT felxibility at the layer they are at
+- Standards INCREASE flexibility for upper layers
+- Too many standards is the same as no standards
+
+- Keep in mind that as soon as an upper layer is in place the lower ones are limited in change.
+- The further down the stack you go the more destructive changes can be
+- cabling, right at the bottom, can cause no end of problems when changed
+end legend
+
+card "layer 1" as L1
+card "layer 2" as L2
+card "layer 3" as L3
+card "layer 4" as L4
+card "layer 5" as L5
+card "layer 6" as L6
+card "layer 7" as L7
+L7 - -> L6 : depends on
+L6 - -> L5 : depends on
+L5 - -> L4 : depends on
+L4 - -> L3 : depends on
+L3 - -> L2 : depends on
+L2 - -> L1 : depends on
+
+note right of L4
+Port number allows standard connectivity
+AND limits us to using the 65000 of them per IP
+With carrier grade NAT a real problem
+end note
+note right of L3
+IP addressing allows standard connectivity
+AND limits us to using the IP stack
+With IPv4 this is now a real problem
+end note
+note right of L2
+MAC addressing allows standard connectivity
+AND limits us to 4096 VLANS
+end note
+
+
+rectangle commodities #fff-b55{
+    card "Ethernet/MPLS" as AL1
+    card "IP" as AL2
+    card "Overlay" as AL3
+    card "IP" as AL4
+    note left of AL1
+        Highly standardised
+        Can choose from few standards
+    end note
+    note left of AL2
+        Highly standardised
+        Just 2 real choices
+    end note
+    note right of AL4 #fff/red
+        ANY changes here or in lower layers cascade up.
+        This means that if the application is
+          running it depends on the lower layers being
+          stable
+          This is why as soon as the first application
+          goes into testing the network can no
+          longer be easily changed or tested.
+    end note
+    note left of AL3
+        Highly standardised
+        a few different choices but limited
+        examples: DSLW+, GRE, IPSEC, etc
+    end note
+    note right of AL3 #fff/orange
+        Flaxibility here is in topology
+
+    end note
+    note left of AL4
+        Highly standardised and more choices than in the underlay
+        examples: SNA, IP, IPv6, etc
+    end note
+}
+rectangle service #fff/green {
+    card "Application" as AL5
+    note left of AL5
+        Highly flexible and effectively the "service"
+    end note
+    note right of AL5 #fff/green
+        Changes here may affect other applications
+        but tend not to matter to the network
+    end note
+}
+
+AL5 - -> AL4 : depends on
+AL4 - - -> AL3 : depends on
+AL3 - -> AL2 : depends on
+AL2 - -> AL1 : depends on
+
+@enduml
+
+PlantUML version 1.2021.10(Mon Aug 30 15:43:48 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

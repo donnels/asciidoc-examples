@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="979px" preserveAspectRatio="none" style="width:615px;height:979px;background:#FBFBFB;" version="1.1" viewBox="0 0 615 979" width="615px" zoomAndPan="magnify"><defs><linearGradient id="g16qzfmbmd4kbh0" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FBFBFB"/><stop offset="100%" stop-color="#B0B0DD"/></linearGradient><filter height="300%" id="f16qzfmbmd4kbh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="url(#g16qzfmbmd4kbh0)" height="979" style="stroke:none;stroke-width:1.0;" width="615" x="0" y="0"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="340" x="131" y="17.4023">Structured Cabling Rack2Rack example</text><!--MD5=[d09afb9e2ceaa2f2c084f0d201d7585e]
+cluster DC-Room--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="922" style="stroke:#000000;stroke-width:1.5;" width="596" x="7" y="28.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="72" x="269" y="43.7344">DC-Room</text><!--MD5=[5060ac1d0ab2f6f64485056bc2433622]
+cluster Source-Rack--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="248" style="stroke:#000000;stroke-width:1.5;" width="429" x="86" y="71.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="255.5" y="86.7344">Source-Rack</text><!--MD5=[438c8a6e7e7079a9f7d9d5f33aef622f]
+cluster Source-Device--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="181" style="stroke:#000000;stroke-width:1.5;" width="202" x="110" y="114.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="103" x="159.5" y="129.7344">Source-Device</text><!--MD5=[2626fa77bca875f48b8afcf2c8a6cfbf]
+cluster Source-Device-NIC--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="114" style="stroke:#000000;stroke-width:1.5;" width="154" x="134" y="157.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="142" y="172.7344">Source-Device-NIC</text><!--MD5=[72de5171d61d736607e2b2b10b0cb31f]
+cluster CPL--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="231" style="stroke:#000000;stroke-width:1.5;" width="382" x="197" y="383.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="27" x="374.5" y="398.7344">CPL</text><!--MD5=[3428c98812cca8e34ff06180d2efbf70]
+cluster CPL-Rack1--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="164" style="stroke:#000000;stroke-width:1.5;" width="148" x="407" y="426.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="441.5" y="441.7344">CPL-Rack1</text><!--MD5=[229131f7ee833c7720d1104bcc160c7e]
+cluster CPL-Panel1--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="97" style="stroke:#000000;stroke-width:1.5;" width="100" x="431" y="469.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="439" y="484.7344">CPL-Panel1</text><!--MD5=[55a37abcbc1daab18fb819d1dc7090d5]
+cluster CPL-Rack2--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="164" style="stroke:#000000;stroke-width:1.5;" width="148" x="221" y="426.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="255.5" y="441.7344">CPL-Rack2</text><!--MD5=[35d44dcc7f30ce1d30bed33fc32e5fd8]
+cluster CPL-Panel2--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="97" style="stroke:#000000;stroke-width:1.5;" width="100" x="245" y="469.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="253" y="484.7344">CPL-Panel2</text><!--MD5=[7cd0eb9e875797547428f23ef1a488fa]
+cluster Destination-Rack--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="248" style="stroke:#000000;stroke-width:1.5;" width="443" x="31" y="678.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="189" y="693.7344">Destination-Rack</text><!--MD5=[255ab42e8a4d9266e2c909e0d0bb94aa]
+cluster Destination-Device--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="181" style="stroke:#000000;stroke-width:1.5;" width="239" x="55" y="721.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="140" x="104.5" y="736.7344">Destination-Device</text><!--MD5=[3560276ef085f5fa7861bbcb0731f5be]
+cluster Destination-Device-NIC--><rect fill="url(#g16qzfmbmd4kbh0)" filter="url(#f16qzfmbmd4kbh)" height="114" style="stroke:#000000;stroke-width:1.5;" width="191" x="79" y="764.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="87" y="779.7344">Destination-Device-NIC</text><!--MD5=[4855b8a2ef5f0bb81159a74215251cec]
+entity SourceRackPanel1--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="351.5,202.1992,361.5,192.1992,498.5,192.1992,498.5,245.1758,488.5,255.1758,351.5,255.1758,351.5,202.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="488.5" x2="498.5" y1="202.1992" y2="192.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="351.5" x2="488.5" y1="202.1992" y2="202.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="488.5" x2="488.5" y1="202.1992" y2="255.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="366.5" y="225.7344">Optional Panel/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="366.5" y="242.2227">Trunk Breakout</text><!--MD5=[bf190a9b920723a0a508e02032110a20]
+entity ServerSFP--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="150.5,202.1992,160.5,192.1992,233.5,192.1992,233.5,245.1758,223.5,255.1758,150.5,255.1758,150.5,202.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="223.5" x2="233.5" y1="202.1992" y2="192.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="150.5" x2="223.5" y1="202.1992" y2="202.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="223.5" x2="223.5" y1="202.1992" y2="255.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="165.5" y="225.7344">Port</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="165.5" y="242.2227">RX/TX</text><!--MD5=[da92b6fca6388e6301122890dea4e5d3]
+entity CPLPanel1Port--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="447,514.1992,457,504.1992,515,504.1992,515,540.6875,505,550.6875,447,550.6875,447,514.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="505" x2="515" y1="514.1992" y2="504.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="447" x2="505" y1="514.1992" y2="514.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="505" x2="505" y1="514.1992" y2="550.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="462" y="537.7344">Port</text><!--MD5=[d7f194982582075c5ed868ffd7d07112]
+entity CPLPanel2Port--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="261,514.1992,271,504.1992,329,504.1992,329,540.6875,319,550.6875,261,550.6875,261,514.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="319" x2="329" y1="514.1992" y2="504.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="261" x2="319" y1="514.1992" y2="514.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="319" x2="319" y1="514.1992" y2="550.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="276" y="537.7344">Port</text><!--MD5=[48eea3ef5634c71daa545af71b352bfb]
+entity DestinationRackPanel1--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="310.5,809.1992,320.5,799.1992,457.5,799.1992,457.5,852.1758,447.5,862.1758,310.5,862.1758,310.5,809.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="447.5" x2="457.5" y1="809.1992" y2="799.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="310.5" x2="447.5" y1="809.1992" y2="809.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="447.5" x2="447.5" y1="809.1992" y2="862.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="325.5" y="832.7344">Optional Panel/</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="325.5" y="849.2227">Trunk Breakout</text><!--MD5=[adcac60d1af5da00f343da0d71b11b7a]
+entity SwitchSFP--><polygon fill="#D0D0FF" filter="url(#f16qzfmbmd4kbh)" points="102.5,809.1992,112.5,799.1992,185.5,799.1992,185.5,852.1758,175.5,862.1758,102.5,862.1758,102.5,809.1992" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="175.5" x2="185.5" y1="809.1992" y2="799.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="102.5" x2="175.5" y1="809.1992" y2="809.1992"/><line style="stroke:#000000;stroke-width:1.5;" x1="175.5" x2="175.5" y1="809.1992" y2="862.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="117.5" y="832.7344">Port</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="117.5" y="849.2227">RX/TX</text><!--MD5=[45fa9add998c9485a56aa912510553d4]
+link ServerSFP to SourceRackPanel1--><path codeLine="56" d="M233.66,223.6992 C266.25,223.6992 312.4,223.6992 351.2,223.6992 " fill="none" id="ServerSFP-SourceRackPanel1" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="252" y="217.2676">Patch duplex</text><!--MD5=[87b2e99a7e266cc8d7e2df6250f2fe83]
+link SourceRackPanel1 to CPLPanel1Port--><path codeLine="57" d="M430.68,255.2692 C441.97,316.0492 466.99,450.7992 476.87,503.9892 " fill="none" id="SourceRackPanel1-CPLPanel1Port" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="472.5" y="348.7676">Trunk</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="456" y="364.0781">Fibre duplex</text><!--MD5=[7007f2198c298ec6a9259d7c1815b0f6]
+link CPLPanel2Port to CPLPanel1Port--><path codeLine="58" d="M329.12,527.1992 C362.57,527.1992 413.3,527.1992 446.79,527.1992 " fill="none" id="CPLPanel2Port-CPLPanel1Port" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="347.5" y="520.7676">Patch duplex</text><!--MD5=[9ce6571034aeec3b645f710c846c3892]
+link CPLPanel2Port to DestinationRackPanel1--><path codeLine="59" d="M301.54,550.3692 C317.24,603.5392 357.05,738.4092 374.99,799.1792 " fill="none" id="CPLPanel2Port-DestinationRackPanel1" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="355.5" y="643.7676">Trunk</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="339" y="659.0781">Fibre duplex</text><!--MD5=[f72de170c6fe47642f43874416254547]
+link SwitchSFP to DestinationRackPanel1--><path codeLine="60" d="M185.53,830.6992 C219.74,830.6992 269.11,830.6992 310.04,830.6992 " fill="none" id="SwitchSFP-DestinationRackPanel1" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="207.5" y="824.2676">Patch duplex</text><!--MD5=[ee84594abecb937c96e71aa88e36694e]
+link ServerSFP to SwitchSFP--><path codeLine="61" d="M172.91,255.2792 C155.73,284.7292 131.74,331.1692 122,375.1992 C87.41,531.5892 121.41,725.3492 137.05,799.1892 " fill="none" id="ServerSFP-SwitchSFP" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="123" y="532.2676">Overall layer 2 Link</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="243.5" y="970.8672">(C)2021 Sean Donnellan</text><!--MD5=[8f78369eac08fa4d93561d23e97e126b]
+@startuml
+title Structured Cabling Rack2Rack example
+footer (C)2021 Sean Donnellan
+skinparam node {
+    borderColor Black
+    backgroundColor #d0d0ff
+}
+skinparam backgroundcolor #fbfbfb/#b0b0dd
+
+rectangle DC-Room {
+  rectangle Source-Rack {
+    node SourceRackPanel1 [
+    Optional Panel/
+    Trunk Breakout
+    ]
+    rectangle Source-Device{
+      rectangle Source-Device-NIC {
+        node ServerSFP [
+        Port
+        RX/TX
+        ]
+      }
+    }
+  }
+  Rectangle CPL{
+    rectangle CPL-Rack1 {
+      rectangle CPL-Panel1{
+        node CPLPanel1Port [
+        Port
+        ]
+      }
+    }
+    rectangle CPL-Rack2 {
+      rectangle CPL-Panel2{
+        node CPLPanel2Port [
+        Port
+        ]
+      }
+    }
+  }
+  rectangle Destination-Rack {
+    node DestinationRackPanel1 [
+    Optional Panel/
+    Trunk Breakout
+    ]
+    rectangle Destination-Device{
+      rectangle Destination-Device-NIC {
+        node SwitchSFP [
+        Port
+        RX/TX
+        ]
+      }
+    }
+  }
+}
+
+ServerSFP - SourceRackPanel1 #red : Patch duplex
+SourceRackPanel1 - - CPLPanel1Port #blue : Trunk \n Fibre duplex
+CPLPanel1Port -left- CPLPanel2Port #red : Patch duplex
+CPLPanel2Port - - DestinationRackPanel1 #blue : Trunk \n Fibre duplex
+DestinationRackPanel1 -up SwitchSFP #red : Patch duplex
+ServerSFP -.- SwitchSFP #green : Overall layer 2 Link
+
+@enduml
+
+PlantUML version 1.2021.10(Mon Aug 30 15:43:48 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="354px" preserveAspectRatio="none" style="width:880px;height:354px;background:#FFFFFF;" version="1.1" viewBox="0 0 880 354" width="880px" zoomAndPan="magnify"><defs><linearGradient id="g43nrtv0moge80" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#BBBBEE"/></linearGradient><filter height="300%" id="f43nrtv0moge8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter><linearGradient id="g43nrtv0moge81" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#BBBBEE"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient></defs><g><rect fill="url(#g43nrtv0moge80)" height="354" style="stroke:none;stroke-width:1.0;" width="880" x="0" y="0"/><text fill="#FF0000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="805.5" y="9.668">Initial DRAFT</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="164" x="351.75" y="29.1797">Routing separation</text><!--MD5=[eba421ac8e20ac42f3ee759fe6c4cf96]
+cluster Device--><rect fill="url(#g43nrtv0moge80)" filter="url(#f43nrtv0moge8)" height="256" style="stroke:#000000;stroke-width:1.5;" width="584" x="284.5" y="39.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="553" y="55.5117">Device</text><!--MD5=[9b903fbe885caa9c053c1397a191e91d]
+cluster optional-mgmt-instance--><rect fill="url(#g43nrtv0moge80)" filter="url(#f43nrtv0moge8)" height="189" style="stroke:#000000;stroke-width:1.5;" width="197" x="647.5" y="82.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="181" x="655.5" y="98.5117">optional-mgmt-instance</text><!--MD5=[ccf55a2007aac484e4bdcb3fe4c348cd]
+cluster routing-instance--><rect fill="url(#g43nrtv0moge80)" filter="url(#f43nrtv0moge8)" height="122" style="stroke:#000000;stroke-width:1.5;" width="138" x="676.5" y="125.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="684.5" y="141.5117">routing-instance</text><!--MD5=[00e3b19adc8ab9df963547f45c6f743c]
+entity HWMgmt--><polygon fill="#BBBBEE" filter="url(#f43nrtv0moge8)" points="475.5,170.9766,485.5,160.9766,631.5,160.9766,631.5,221.9531,621.5,231.9531,475.5,231.9531,475.5,170.9766" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="621.5" x2="631.5" y1="170.9766" y2="160.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="475.5" x2="621.5" y1="170.9766" y2="170.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="621.5" x2="621.5" y1="170.9766" y2="231.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="490.5" y="194.5117">HW management</text><line style="stroke:#000000;stroke-width:1.0;" x1="475.5" x2="621.5" y1="197.4648" y2="197.4648"/><line style="stroke:#000000;stroke-width:1.0;" x1="621.5" x2="631.5" y1="197.4648" y2="187.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="490.5" y="215">Features</text><!--MD5=[867cfaf5466e96050b0d79d09f0582ae]
+entity NativeRouting--><polygon fill="#BBBBEE" filter="url(#f43nrtv0moge8)" points="300.5,170.9766,310.5,160.9766,440.5,160.9766,440.5,221.9531,430.5,231.9531,300.5,231.9531,300.5,170.9766" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="430.5" x2="440.5" y1="170.9766" y2="160.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="300.5" x2="430.5" y1="170.9766" y2="170.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="430.5" x2="430.5" y1="170.9766" y2="231.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="315.5" y="194.5117">Native Routing</text><line style="stroke:#000000;stroke-width:1.0;" x1="300.5" x2="430.5" y1="197.4648" y2="197.4648"/><line style="stroke:#000000;stroke-width:1.0;" x1="430.5" x2="440.5" y1="197.4648" y2="187.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="315.5" y="215">Features</text><!--MD5=[e1884ff26bb6b58cbc8689f913252695]
+entity VRroutingDomain--><polygon fill="#BBBBEE" filter="url(#f43nrtv0moge8)" points="696,170.9766,706,160.9766,795,160.9766,795,221.9531,785,231.9531,696,231.9531,696,170.9766" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="785" x2="795" y1="170.9766" y2="160.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="696" x2="785" y1="170.9766" y2="170.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="785" x2="785" y1="170.9766" y2="231.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="711" y="194.5117">VRF</text><line style="stroke:#000000;stroke-width:1.0;" x1="696" x2="785" y1="197.4648" y2="197.4648"/><line style="stroke:#000000;stroke-width:1.0;" x1="785" x2="795" y1="197.4648" y2="187.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="711" y="215">Features</text><!--MD5=[c12a1600b6b75d8e137ee7341d68ba4c]
+entity meta--><polygon fill="url(#g43nrtv0moge81)" filter="url(#f43nrtv0moge8)" points="16,71.9766,26,61.9766,265,61.9766,265,320.8125,255,330.8125,16,330.8125,16,71.9766" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="255" x2="265" y1="71.9766" y2="61.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="255" y1="71.9766" y2="71.9766"/><line style="stroke:#000000;stroke-width:1.5;" x1="255" x2="255" y1="71.9766" y2="330.8125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="31" y="95.5117">Meta Information</text><line style="stroke:#000000;stroke-width:1.0;" x1="16" x2="255" y1="98.4648" y2="98.4648"/><line style="stroke:#000000;stroke-width:1.0;" x1="255" x2="265" y1="98.4648" y2="88.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="31" y="116">Initial Drawing</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="31" y="132.4883">Outlining Routing separation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="31" y="148.9766">And differences in approaches</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="31" y="165.4648">So as to explain testing</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="31" y="181.9531">Not to forget VLANs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="31" y="198.4414">VRF</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="31" y="214.9297">NAT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="31" y="231.418">PBR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="31" y="247.9063">OSPF</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="31" y="264.3945">GRE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="31" y="280.8828">IPSEC</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="31" y="297.3711">BGP (e and i)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="35" y="313.8594"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="376.25" y="346.4805">(C)2021 Sean Donnellan</text><!--MD5=[2ba98b3dd3d4b63843de0fe81c3c8539]
+@startuml
+title Routing separation
+header <font color=red>Initial DRAFT</font>
+footer (C)2021 Sean Donnellan
+
+skinparam BackgroundColor #fff/bbe
+skinparam NodeBackgroundColor #bbe
+
+node meta #bbe/fff[
+Meta Information
+- -
+Initial Drawing
+Outlining Routing separation
+And differences in approaches
+So as to explain testing
+Not to forget VLANs
+VRF
+NAT
+PBR
+OSPF
+GRE
+IPSEC
+BGP (e and i)
+
+]
+rectangle Device {
+  node HWMgmt [
+  HW management
+  - - - -
+  Features
+  ]
+  node NativeRouting [
+  Native Routing
+  - - - -
+  Features
+  ]
+  rectangle optional-mgmt-instance {
+    rectangle routing-instance {
+      node VRroutingDomain [
+      VRF
+      - - -
+      Features
+      ]
+    }
+  }
+}
+@enduml
+
+PlantUML version 1.2021.10(Mon Aug 30 15:43:48 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
