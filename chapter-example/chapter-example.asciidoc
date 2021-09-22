@@ -58,9 +58,10 @@ Each chapter and section can be kept in a separate folder and access can be prov
 .plantuml description of the document structure
 image::./doc-structure.png[]
 
+.source of the above plantuml figure
 [source,plantuml]
 ----
-include::./doc-structure.plantunl[]
+include::./doc-structure.plantuml[]
 ----
 
 === Example sub section
