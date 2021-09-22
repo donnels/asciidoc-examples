@@ -33,7 +33,7 @@ include::./chapter-logo/chapter-logo.asciidoc[leveloffset=+1]
 .github link to an jupyter notebook of an example 3d Object
 link:https://github.com/donnels/3d-objects/blob/main/spoolholder.ipynb[^]
 
-The above is an example of dockerizing Juypter while adding an opensaced kernel to be able to describe the story of how an object was created. The ipynb is an extension assigned to jupyter notebooks and the kernel for openscad was added for a raspery Pi by Sean Donnellan so as to give jypter a home there in the VSR network. Normally Jupyter is used with Python or R for example for data analysis while mixing code and documentation. Output can also be PDF. When openen in the proper Jupyter environment it is interactive.
+The above is an example of dockerizing Jupyter while adding an openscad kernel to be able to describe the story of how an object was created. The jupyter notebook seen above is the static output of the interactive Jupyter notebook that was created and edited in a dokerized environment. The .ipynb is an extension assigned to jupyter notebooks and the kernel for openscad was added for a Raspberry Pi (ARM CPU) by Sean Donnellan so as to give jupyter a home there in the VSR network. Normally Jupyter is used with Python or R for example for data analysis while mixing code and documentation. Output can also be PDF. When opened in the proper Jupyter environment, online web based editor, it is interactive.
 
 .The object created for printing
 link:https://github.com/donnels/3d-objects/blob/main/spool.stl[^]
