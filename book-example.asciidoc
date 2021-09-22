@@ -24,3 +24,6 @@
 
 [#Chapter-example-chapter]
 include::./chapter-example/chapter-example.asciidoc[leveloffset=+1]
+
+[#Chapter-logo-chapter]
+include::./chapter-logo/chapter-logo.asciidoc[leveloffset=+2]

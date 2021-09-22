@@ -36,9 +36,6 @@ And folowed by an example sub section.
 
 include::./section-example/section-example.adoc[leveloffset=+2]
 
-include::./section-logo/chapter-logo.asciidoc[leveloffset=+2]
-
-
 ifdef::OLDlocaldir[]
 :localdir: {OLDlocaldir}
 :!OLDlocaldir:
