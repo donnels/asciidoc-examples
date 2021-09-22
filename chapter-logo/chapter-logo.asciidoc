@@ -30,9 +30,14 @@ ifndef::localdir[]
 endif::localdir[]
 :imagesdir: {localdir}
 
-== Example chapter section
-With some example text.
-And folowed by an example sub section.
+== VSR logo description
+
+The VSR logo was created from a 2d table of 8x8 with 8 data points with only one data point in each row and column. This then was made 3 dimentional and the points are further distributed to be only one in each row and column no matter from which side the 3d cube is viewed.
+While it's entirely possible to just distribute the points down a straight line through the cube they are distributed to make the 8 corners of a further cube like object within the outter cube.
+The inner cube is skewed due to the constraints of the placements and it is this shape which is desired. 
+The overall idea behind this is that the inner cube when subtracted from the outer cube leaves a space within, virtual space, and it is defined by data points, nodes, in a multidimenional table, and connexions between the nodes, edges, that together represent a graph and an object. This represents the communication in Virtual Space and Global Communications Research.
+The original log also has an at symbol in the center which is not shown in the SCAD file.
+The idea behind the @ was to make it clear that communications is being referred to but it is redundant because the inner cube/graph represents a network.
 
 .Example of inner logo with text as mix
 image::./VSR-textndLogoGreen.png[]
