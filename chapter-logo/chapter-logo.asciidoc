@@ -1,9 +1,9 @@
-= Example chapter
+= Description of logo
 ifdef::book-flag[]
 :doc-sub: true
 :OLDlocaldir: {localdir}
 :OLDimagesdir: {imagesdir}
-:localdir: ./chapter-example/
+:localdir: ./chapter-logo/
 endif::book-flag[]
 ifndef::localdir[]
 :localdir: ./
@@ -34,10 +34,11 @@ endif::localdir[]
 With some example text.
 And folowed by an example sub section.
 
-include::./section-example/section-example.adoc[leveloffset=+2]
+.Example of inner logo with text as mix
+image::./VSR-textndLogoGreen.png[]
 
-include::./section-logo/chapter-logo.asciidoc[leveloffset=+2]
-
+.VSR logo scad file with diffreent options
+include::./VSR-cubeLogoV2.scad[]
 
 ifdef::OLDlocaldir[]
 :localdir: {OLDlocaldir}

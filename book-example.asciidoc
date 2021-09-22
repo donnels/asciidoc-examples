@@ -1,4 +1,4 @@
-= Template Book
+= Example Asciidoc Document
 :toc: right
 :sectnums:
 :sectnumlevels: 5
