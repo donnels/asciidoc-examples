@@ -1,0 +1,58 @@
+= Example section
+ifdef::book-flag[]
+:doc-sub-sub: true
+:sub-sub-OLDlocaldir: {localdir}
+:sub-sub-OLDimagesdir: {imagesdir}
+:localdir: ./Chapter-Data-Analysis-Logic/Material/data-MAC
+endif::book-flag[]
+ifdef::chapter-flag[]
+:doc-sub: true
+:sub-OLDlocaldir: {localdir}
+:sub-OLDimagesdir: {imagesdir}
+:localdir: ./section-example
+endif::chapter-flag[]
+ifndef::localdir[]
+:localdir: ./
+:copyright: (C) 2021 Virtual Space Research
+:orgname: Virtual Space Research
+:toc: right
+:sectnumlevels: 4
+:toclevels: 4
+:title-page:
+:data-uri:
+:sectnums:
+:allow-uri-read: true
+:doctype: article
+:source-highlighter: rouge
+:icons: font
+:pdf-page-size: A4
+:pdf-stylesdir: lib/themes
+:pdf-style: VSR-theme.yml
+:pdf-fontsdir: lib/fonts
+:listing-caption: Listing
+:favicon: ./lib/favicon.ico
+:classification:
+endif::localdir[]
+:imagesdir: {localdir}
+
+== example sub section
+With some test text here.
+
+
+== example dynamic includes section
+
+include::Includeme.adoc[]
+
+
+ifdef::sub-OLDlocaldir[]
+:localdir: {sub-OLDlocaldir}
+:!OLDlocaldir:
+:imagesdir: {sub-OLDimagesdir}
+:!OLDimagesdir:
+endif::sub-OLDlocaldir[]
+ifdef::sub-sub-OLDlocaldir[]
+:localdir: {sub-sub-OLDlocaldir}
+:!OLDlocaldir:
+:imagesdir: {sub-sub-OLDimagesdir}
+:!OLDimagesdir:
+endif::sub-sub-OLDlocaldir[]

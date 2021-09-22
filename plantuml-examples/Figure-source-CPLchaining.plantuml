@@ -1,0 +1,18 @@
+@startuml
+title Structured cabling layers
+footer (C)2021 Sean Donnellan
+
+skinparam BackgroundColor #fff/bbe
+skinparam UsecaseBackgroundColor #fff/bbe
+
+(Server) --> (Structured Cabling Layer 1) #blue: LAN
+(Server) --> (Structured Cabling Layer 1) #green: SAN
+(Structured Cabling Layer 1) --> (LAN Switch)#blue: LAN
+(Structured Cabling Layer 1) --> (SAN Switch)#green: SAN
+(SAN Switch) --> (Structured Cabling Layer 2) #green: SAN
+(LAN Switch) --> (Structured Cabling Layer 2) #blue: LAN
+(Structured Cabling Layer 2) --> (SAN Device)#green: SAN
+(Structured Cabling Layer 2) --> (LAN Device router/FW)#blue: LAN
+(LAN Device router/FW) --> (Structured Cabling Layer 3)#blue:LAN
+(Structured Cabling Layer 3) --> (ETC...)#blue:LAN
+@enduml

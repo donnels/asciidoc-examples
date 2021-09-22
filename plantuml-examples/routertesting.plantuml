@@ -1,0 +1,47 @@
+@startuml
+title Routing separation
+header <font color=red>Initial DRAFT</font>
+footer (C)2021 Sean Donnellan
+
+skinparam BackgroundColor #fff/bbe
+skinparam NodeBackgroundColor #bbe
+
+node meta #bbe/fff[
+Meta Information
+--
+Initial Drawing
+Outlining Routing separation
+And differences in approaches
+So as to explain testing
+Not to forget VLANs
+VRF
+NAT
+PBR
+OSPF
+GRE
+IPSEC
+BGP (e and i)
+
+]
+rectangle Device {
+  node HWMgmt [
+  HW management
+  ----
+  Features
+  ]
+  node NativeRouting [
+  Native Routing
+  ----
+  Features
+  ]
+  rectangle optional-mgmt-instance {
+    rectangle routing-instance {
+      node VRroutingDomain [
+      VRF
+      ---
+      Features
+      ]
+    }
+  }
+}
+@enduml

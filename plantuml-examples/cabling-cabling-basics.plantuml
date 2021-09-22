@@ -1,0 +1,64 @@
+@startuml
+title Structured Cabling Rack2Rack example
+footer (C)2021 Sean Donnellan
+skinparam node {
+    borderColor Black
+    backgroundColor #d0d0ff
+}
+skinparam backgroundcolor #fbfbfb/#b0b0dd
+
+rectangle DC-Room {
+  rectangle Source-Rack {
+    node SourceRackPanel1 [
+    Optional Panel/
+    Trunk Breakout
+    ]
+    rectangle Source-Device{
+      rectangle Source-Device-NIC {
+        node ServerSFP [
+        Port
+        RX/TX
+        ]
+      }
+    }
+  }
+  Rectangle CPL{
+    rectangle CPL-Rack1 {
+      rectangle CPL-Panel1{
+        node CPLPanel1Port [
+        Port
+        ]
+      }
+    }
+    rectangle CPL-Rack2 {
+      rectangle CPL-Panel2{
+        node CPLPanel2Port [
+        Port
+        ]
+      }
+    }
+  }
+  rectangle Destination-Rack {
+    node DestinationRackPanel1 [
+    Optional Panel/
+    Trunk Breakout
+    ]
+    rectangle Destination-Device{
+      rectangle Destination-Device-NIC {
+        node SwitchSFP [
+        Port
+        RX/TX
+        ]
+      }
+    }
+  }
+}
+
+ServerSFP - SourceRackPanel1 #red : Patch duplex
+SourceRackPanel1 -- CPLPanel1Port #blue : Trunk \n Fibre duplex
+CPLPanel1Port -left- CPLPanel2Port #red : Patch duplex
+CPLPanel2Port -- DestinationRackPanel1 #blue : Trunk \n Fibre duplex
+DestinationRackPanel1 -up SwitchSFP #red : Patch duplex
+ServerSFP -.- SwitchSFP #green : Overall layer 2 Link
+
+@enduml

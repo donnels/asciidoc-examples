@@ -1,0 +1,100 @@
+@startuml
+title Standards vs flexibility vs stability
+footer Author Sean Donnellan
+skinparam BackgroundColor #fff/aaf
+skinparam CardBackgroundColor #fff/aaf
+skinparam LegendBackgroundColor #aaf/fff
+legend
+- Implementing standards is important
+- Standards LIMIT felxibility at the layer they are at
+- Standards INCREASE flexibility for upper layers
+- Too many standards is the same as no standards
+
+- Keep in mind that as soon as an upper layer is in place the lower ones are limited in change.
+- The further down the stack you go the more destructive changes can be
+- cabling, right at the bottom, can cause no end of problems when changed
+end legend
+
+card "layer 1" as L1
+card "layer 2" as L2
+card "layer 3" as L3
+card "layer 4" as L4
+card "layer 5" as L5
+card "layer 6" as L6
+card "layer 7" as L7
+L7 --> L6 : depends on
+L6 --> L5 : depends on
+L5 --> L4 : depends on
+L4 --> L3 : depends on
+L3 --> L2 : depends on
+L2 --> L1 : depends on
+
+note right of L4
+Port number allows standard connectivity
+AND limits us to using the 65000 of them per IP
+With carrier grade NAT a real problem
+end note
+note right of L3
+IP addressing allows standard connectivity
+AND limits us to using the IP stack
+With IPv4 this is now a real problem
+end note
+note right of L2
+MAC addressing allows standard connectivity
+AND limits us to 4096 VLANS
+end note
+
+
+rectangle commodities #fff-b55{
+    card "Ethernet/MPLS" as AL1
+    card "IP" as AL2
+    card "Overlay" as AL3
+    card "IP" as AL4
+    note left of AL1
+        Highly standardised
+        Can choose from few standards
+    end note
+    note left of AL2
+        Highly standardised
+        Just 2 real choices
+    end note
+    note right of AL4 #fff/red
+        ANY changes here or in lower layers cascade up.
+        This means that if the application is
+          running it depends on the lower layers being
+          stable
+          This is why as soon as the first application
+          goes into testing the network can no
+          longer be easily changed or tested.
+    end note
+    note left of AL3
+        Highly standardised
+        a few different choices but limited
+        examples: DSLW+, GRE, IPSEC, etc
+    end note
+    note right of AL3 #fff/orange
+        Flaxibility here is in topology
+
+    end note
+    note left of AL4
+        Highly standardised and more choices than in the underlay
+        examples: SNA, IP, IPv6, etc
+    end note
+}
+rectangle service #fff/green {
+    card "Application" as AL5
+    note left of AL5
+        Highly flexible and effectively the "service"
+    end note
+    note right of AL5 #fff/green
+        Changes here may affect other applications
+        but tend not to matter to the network
+    end note
+}
+
+AL5 --> AL4 : depends on
+AL4 ---> AL3 : depends on
+AL3 --> AL2 : depends on
+AL2 --> AL1 : depends on
+
+@enduml

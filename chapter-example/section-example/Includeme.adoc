@@ -1,0 +1,12 @@
+
+.exampleJSON.txt
+[source,txt]
+-----
+include::exampleJSON.txt[]
+-----
+
+.exampleinclude.txt
+[source,txt]
+-----
+include::exampleinclude.txt[]
+-----

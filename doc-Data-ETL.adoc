@@ -1,0 +1,81 @@
+= Data cleansing tools
+
+== Background
+
+Data arrives from various data sources (e.g. Switch data, Router Data, Elevation data, Cabling data) and so therefore varies in type of file (csv, xls) as well as the number and type of columns in the data set. In addition, the data format may differ depending on the vendor (MAC address formats, for example.). These all need to be somehow smoothed out so that an upload into a neo4j database can be achieved with relative ease.
+
+The function of this repository is to assist in the cleaning and importing of data into neo4J.
+
+The suite of Python files has been developed to facilitate and automate the process of analysing CSV files. The main objectives being:
+
+* to assist in diagram representation (creating uml files)
+* process csv files ready for import into neo4j
+
+
+== Prerequisites
+
+* Ensure Python 3.7 is installed
+
+* Create an environment:
+
+`pip install virtualenv`
+
+=== macOS
+
+`virtualenv my_name`
+
+`source virtualenv_name/bin/activate`
+
+When in the environment, go into the project directory and run:
+
+`pip install -r requirements.txt`
+
+This will install all necessary dependencies for all of the python scripts in the directory.
+
+=== Windows
+
+In your windows command prompt, head to your project location: :
+`cd my_project`
+
+Once inside the project folder run: 
+`virtualenv env`
+
+To activate virtualenv on Windows, and activate the script is in the Scripts folder :
+
+`\pathto\env\Scripts\activate`
+
+e.g.: `C:\Users\'Username'\venv\Scripts\activate.bat`
+
+When in the environment, go into the project directory and run:
+
+`pip install -r requirements.txt`
+
+This will install all necessary dependencies for all of the python scripts in the directory.
+
+== Getting Started
+
+There are two main ways to run a python script:
+
+1. Either via an IDE (such as PyCharm, Eclipse, etc)
+2. By command (in the .py directory):
+
+`python <python_file>`
+
+== Docker
+
+Ensure Docker is installed in your machine. Go to the directory where your `Dockerfile` file resides, then:
+
+`$ docker build -t <Image_name> .` 
+`$ docker build -t csv2neo4j_image .`
+
+Then cd into the `/DATA` directory (or directory where your `.csv` file resides) and execute:
+
+``
+`$ docker run -v "$PWD":/data/ --rm --name <container> <build_image> <script_name>-f /data/<your_csv_file> -v <param1> -n <param2>`
+
+for example:
+
+`$ docker run -v "$PWD":/data/ --rm --name csv2neo4j_img csv2neo4j_image ARP-20-reformatCSV.py -f /data/ARPXXX_17082020-045657.csv -v "AT&T" -n "ARP"`
+
+
+

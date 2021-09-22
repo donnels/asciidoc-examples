@@ -1,0 +1,44 @@
+= Example chapter
+ifdef::book-flag[]
+:doc-sub: true
+:OLDlocaldir: {localdir}
+:OLDimagesdir: {imagesdir}
+:localdir: ./chapter-example/
+endif::book-flag[]
+ifndef::localdir[]
+:localdir: ./
+:chapter-flag: true
+:copyright: (C) 2021 Virtual Space Research
+:orgname: Virtual Space Research
+:toc: right
+:sectnumlevels: 4
+:toclevels: 4
+:title-page:
+:data-uri:
+:sectnums:
+:allow-uri-read: true
+:doctype: article
+:source-highlighter: rouge
+:icons: font
+:pdf-page-size: A4
+:pdf-stylesdir: lib/themes
+:pdf-style: VSR-theme.yml
+:pdf-fontsdir: lib/fonts
+:listing-caption: Listing
+:favicon: ./lib/favicon.ico
+:classification:
+endif::localdir[]
+:imagesdir: {localdir}
+
+== Example chapter section
+With some example text.
+And folowed by an example sub section.
+
+include::./section-example/section-example.adoc[leveloffset=+2]
+
+ifdef::OLDlocaldir[]
+:localdir: {OLDlocaldir}
+:!OLDlocaldir:
+:imagesdir: {OLDimagesdir}
+:!OLDimagesdir:
+endif::OLDlocaldir[]

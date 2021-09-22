@@ -1,0 +1,4 @@
+This is an example raw text file
+the file contains just text and could be a log file or output from some tests
+a list of these can be compiled and automatically pulled in
+It can also be source code or JSON or siilar and can then even be highlighted by syntax.

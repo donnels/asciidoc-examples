@@ -1,0 +1,82 @@
+@startuml
+title Sequence diagram for CSV load through local docker to remote docker
+footer (C) 2021 Sean Donnellan
+
+skinparam handwritten false
+skinparam SequenceGroupBodyBackgroundColor transparent
+skinparam sequence {
+	ArrowColor Blue
+	ActorBorderColor Blue
+	LifeLineBorderColor blue
+	LifeLineBackgroundColor #A9DCDF
+	ParticipantBorderColor Blue
+	ParticipantBackgroundColor #fafaff/888888
+	ParticipantFontSize 12
+	ParticipantFontColor black
+	ActorFontColor Black
+}
+
+box "workstation" #lightgrey
+  actor user
+end box
+
+box "local docker" #lightGrey
+  participant wrapper
+	participant tokenizer
+  participant convertCSV
+  participant flask
+  participant Uploader
+end box
+
+box "neo Docker" #8888FF
+  participant Neo4J
+end box
+
+group "User Interaction"
+  user -> wrapper :provide filename of \nlocal csv\n via CLI
+	activate wrapper
+  group "Conversion"
+    wrapper -> convertCSV : trigger conversion
+		activate convertCSV
+    wrapper <- convertCSV : new converted file
+		deactivate convertCSV
+  end
+
+	group "Token"
+		wrapper -> tokenizer : request Token
+		activate tokenizer
+		tokenizer -> tokenizer : create "random" Token
+		wrapper <- tokenizer : return Token
+		deactivate tokenizer
+	end
+
+  group "Trigger URL"
+    wrapper -> flask : pass converted file and\nURL+TOKEN
+		activate flask
+		note over flask : Aim: provide file with random URL to neo4j\n end docker after neo4j returns result of load
+		flask -> flask : begin serving file \n via random URL+Token
+  end
+
+  group "Load CSV"
+		wrapper -> Uploader : Pass URL+Token
+		activate Uploader
+		Uploader -> Uploader : Load CQL statement
+    group "Loader IP session to neo4j"
+      Uploader -> Neo4J : Pass load CSV CQL\nincluding URL+Token
+      group "neo4j IP session to flask"
+        flask <- Neo4J : get CSV through URL
+        flask -> Neo4J : pass converted CSV
+				deactivate flask
+      end
+      Neo4J -> Neo4J : Load csv
+			... **Neo4j Loads the data - If the data file is large this can take a long time - It can take from minutes to hours depending on the complexity and size** ...
+      Neo4J -> Uploader : return status
+			wrapper <- Uploader : return status
+			deactivate Uploader
+    end
+  end
+  wrapper -> user : return status
+	deactivate wrapper
+end
+
+@enduml

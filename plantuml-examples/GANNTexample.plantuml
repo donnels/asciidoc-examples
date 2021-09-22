@@ -1,0 +1,155 @@
+@startgantt
+title Example High level GANTT for example agile project
+'header <font color=red size=20>DRAFT</font>
+footer (C)2021 Sean Donnellan
+skinparam LegendBackgroundColor #aaf\fff
+skinparam LegendBorderColor #fff\aaf
+legend left
+Approved 1971 01 01
+Develop test scenarios
+Sponsor CIO
+example project 123
+Date modified : 1971 01 01 Sean Donnellan
+PM John Doe
+end legend
+
+' take a look at https://plantuml.com/gantt-diagram
+'this style section allows you to tune the style.
+<style>
+    ganttDiagram {
+        task {
+            'FontName Helvetica
+            FontColor DarkGrey
+            FontSize 18
+            FontStyle bold
+            BackGroundColor #orange|green
+            LineColor #red
+            'margin 0
+            'padding 5
+        }
+        milestone {
+            FontColor #aaf/red
+            FontSize 25
+            FontStyle italic
+            BackGroundColor #fff/aaf
+            LineColor #aaf/fff
+        }
+        note {
+            FontColor Black
+            FontSize 10
+            LineColor Orange
+        }
+        arrow {
+            'FontName Helvetica
+            FontColor red
+            FontSize 18
+            FontStyle bold
+            BackGroundColor GreenYellow
+            LineColor DarkGrey
+            'LineStyle 8.0;13.0
+            LineThickness 2.0
+        }
+        separator {
+            BackgroundColor #orange|green
+            LineStyle 8.0;3.0
+            LineColor blue
+            LineThickness 1.0
+            FontSize 16
+            FontStyle bold
+            FontColor blue
+            Margin 5
+            Padding 5
+        }
+        timeline {
+            BackgroundColor #fff|aaf
+        }
+        closed {
+            BackgroundColor #eee
+            FontColor Black
+        }
+    }
+</style>
+
+'the following two lines allow you to either hide or show the footbox
+hide footbox
+
+2022/1/1 to 2022/1/31 are colored in #eee
+2022/3/1 to 2022/3/31 are colored in #eee
+2022/5/1 to 2022/5/31 are colored in #eee
+2022/7/1 to 2022/7/31 are colored in #eee
+2022/9/1 to 2022/9/30 are colored in #eee
+2022/11/1 to 2022/11/30 are colored in #eee
+projectscale monthly zoom 3
+
+' if you want to have these closed days shown tasks will be split into weeks for High level it's best not to used closed days.
+' closed days WILL on the other hand allow you to work with business days in planning as opposed to weekdays.
+' coloring months wil overlay on top of closed day markings so they sort of clash
+'saturday are closed
+'sunday are closed
+
+-- Phase One --
+Project starts the 1st of january 2022
+2022/1/20 is colored in salmon
+["Requirements" and Planning] as [Requirements] lasts 10 days and is 100% completed
+[Requirements] is colored in green
+[Design and "Modeling"] as [Modeling] lasts 20 days and is 50% completed
+[Modeling] is colored in green
+'note bottom
+'  example Note
+'end note
+
+[Dev & Test "Sprint 1"] as [Sprint1] lasts 30 days 
+[Dev & Test "Sprint 2"] as [Sprint2] lasts 30 days 
+[Dev & Test "Sprint 3"] as [Sprint3] lasts 30 days 
+[Dev & Test "Sprint 4"] as [Sprint4] lasts 30 days 
+[Dev & Test "Sprint 5"] as [Sprint5] lasts 30 days 
+note bottom
+  Around this time Vacations start
+  to hit the timeline
+  Also not that Saturdays and sundays
+  Are not marked as closed so the
+  Durations are calendar days and not 
+  working days.
+  This is an example of very high level
+  planning only.
+end note
+[Alpha Release "Drop1A"] as [Drop1A] happens 2022-07-01
+[Executive Presentation "Report0"] as [Report0] happens 2022-07-01
+
+[UXT Testing 1 "UXT1"] as [UXT1] lasts 20 days
+[Progress Report to Sponsor "Report1"] as [Report1] lasts 30 days
+[Dev & Test "Sprint 6"] as [Sprint6] lasts 30 days
+
+[Beta Release "Drop2B"] as [Drop2B] happens at 2022-09-01
+
+[UXT Testing 2 "UXT2"] as [UXT2] lasts 30 days
+[Dev & Test "Sprint 7"] as [Sprint7] lasts 24 days
+[Documentation relese "Report2"] as [Report2] lasts 30 days
+
+[Stable Release "Drop3S"] as [Drop3S] happens 2022-12-01
+
+[Final Report to Sponsor "Report3"] as [Report3] lasts 30 days
+
+[Phase 1 Completion "P1Stop"] as [P1Stop] happens 2022-12-31
+
+[Requirements]->[Modeling]
+[Modeling]->[Sprint1]
+[Sprint1]->[Sprint2]
+[Sprint2]->[Sprint3]
+[Sprint3]->[Sprint4]
+[Sprint4]->[Sprint5]
+[Sprint5]->[Drop1A]
+'[Sprint5]->[Report0]
+[Drop1A]->[UXT1]
+ [Drop1A]->[Report1]
+[UXT1]->[Sprint6]
+[Sprint6]->[Drop2B]
+[Drop2B]->[UXT2]
+[UXT2]->[Sprint7]
+[Sprint7]->[Report2]
+[Report2]->[Drop3S]
+[Drop3S]->[Report3]
+[Report3]->[P1Stop]
+
+
+@endgantt

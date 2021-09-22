@@ -1,0 +1,26 @@
+= Template Book
+:toc: right
+:sectnums:
+:sectnumlevels: 5
+:toclevels: 5
+:title-page:
+:data-uri:
+:allow-uri-read: true
+:doctype: book
+:book-flag: true
+:localdir: ./
+:imagesdir: {localdir}
+:source-highlighter: rouge
+:icons: font
+:!reproducible:
+:pdf-page-size: A4
+:pdf-stylesdir: lib/themes
+:pdf-style: VSR-theme.yml
+:pdf-fontsdir: lib/fonts
+:listing-caption: Listing
+:favicon: ./lib/favicon.ico
+:classification: Virtual Space and Global Communications Research Confidential
+//:title-logo-image: image:images/Book-84128.png[pdfwidth=3.9in,align=right]
+
+[#Chapter-example-chapter]
+include::./chapter-example/chapter-example.asciidoc[leveloffset=+1]

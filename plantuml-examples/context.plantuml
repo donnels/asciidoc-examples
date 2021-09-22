@@ -1,0 +1,66 @@
+@startuml
+title DevEnv context overview diagram
+header example
+footer (C)2021 Sean Donnellan
+
+skinparam BackgroundColor #ffffff/bbbbee
+skinparam NodeBorderColor black
+skinparam NodeBackgroundColor #bbbbee
+skinparam DatabaseBackgroundColor #bbbbee
+skinparam ActorBackgroundColor transparent
+skinparam CloudBackgroundColor #ffff33
+skinparam LegendBackgroundColor #bbbbee/ffffff
+skinparam LegendBorderThickness 0
+skinparam LegendFontSize 10
+
+rectangle "host system" as server #bbbbee/ffffff {
+    rectangle "Docker" as solution {
+        rectangle "container" as container {
+            cloud context [
+                whatever the
+                environment is
+                that is being
+                developed
+            ]
+        }
+        cloud containerNet #bbbbee [
+            Area51
+            Private network
+        ]
+        rectangle "container" as containerDB {
+            database neo4j
+        }
+        containerDB -[#000000] containerNet
+        containerNet -[#000000] container
+    }
+    cloud "routing" as IP #bbbbee
+}
+
+actor user
+actor "dev/admin" as admin
+node cisco [
+    Cisco
+    Teams
+]
+database csvData
+
+containerDB -> IP #green : expose\n7474\n7687
+container -> IP #green : expose\n5000
+containerNet - IP #000000
+user --> IP #green
+admin .> neo4j
+admin .> context : label
+context --> cisco #blue : label
+context <-- csvData  #blue : label
+context <--> neo4j : label
+
+legend
+Connexion types
+|<back:#green>'   '</back>| User connexion |
+|<back:#blue>'   '</back>| External data |
+|<back:red>'   '</back>| internal use case |
+|<back:white/red>'   '</back>| admin flows |
+|<back:black>'   '</back>| internal routing|
+endlegend
+
+@enduml

@@ -1,0 +1,48 @@
+@startuml
+title Example context diagram
+footer (C)2021 Sean Donnellan
+
+skinparam BackgroundColor #fff/bbe
+skinparam NodeBorderColor black
+skinparam NodeBackgroundColor #bbbbee
+skinparam DatabaseBackgroundColor #fff/bbe
+skinparam ActorBackgroundColor transparent
+skinparam CloudBackgroundColor #ffff33
+skinparam LegendBackgroundColor #bbe/fff
+skinparam UsecaseBackgroundColor #bbe/fff
+skinparam CardBackgroundColor #bbe/fff
+
+rectangle "docker" as container {
+    usecase "Example Project" as context
+    database neo4j
+}
+database "excel" as dataSource
+actor "user" as user
+actor "dev/admin" as admin
+
+card diagram
+card asciidoc
+
+user --> context #green: (2b) triggers
+user -.> neo4j #green: views
+user --> dataSource #green: (1) creates
+admin -.> context : manages
+admin -.> neo4j : manages
+
+dataSource -> context #green:  (2a) input
+context <-> neo4j : (3) reads/writes
+context --> diagram #green: (4a) creates
+context --> asciidoc #green: (4b) creates
+
+skinparam LegendBorderThickness 0
+skinparam LegendFontSize 10
+
+legend
+legend
+|<back:#green>'   '</back>| User usecase |
+|<back:#white/green>'   '</back>| 2ndary user usecase |
+|<back:red>'   '</back>| internal use case |
+|<back:white/red>'   '</back>| admin flows |
+endlegend
+
+@enduml

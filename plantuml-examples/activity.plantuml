@@ -1,0 +1,35 @@
+@startuml
+title example activity diagram
+header EXAMPLE
+footer (C)2021 Sean Donnellan
+skinparam BackgroundColor #fff/aaf
+skinparam activity {
+  StartColor black
+  BarColor black/blue
+  EndColor black
+  BackgroundColor #aaf/fff
+  BackgroundColor<< Begin >> green
+  BorderColor black
+}
+skinparam ArrowColor red
+
+(*) --> "First Action" << Begin >>
+note right: first action 
+
+if "Some Test" then
+  -->[true] "Some Action"
+  --> "Another Action"
+  -right-> (*)
+else
+    --> [false] ===B1===
+    --> "Parallel Action 1"
+    --> ===B2===
+
+    ===B1=== --> "Parallel Action 2"
+    --> ===B2===
+    --> "Last Action"
+    -->[Ending process] (*)
+endif
+
+
+@enduml
