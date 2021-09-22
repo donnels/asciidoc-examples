@@ -34,7 +34,34 @@ endif::localdir[]
 With some example text.
 And folowed by an example sub section.
 
-include::./section-example/section-example.adoc[leveloffset=+2]
+=== Background to the structure of the document
+Each chapter and section can be kept in a separate folder and access can be provided on a book, chapter, or section level. The idea behind this is to be able to provide editor access to parts of the document by third parties. Also each chapter and section can be built as its own standalone document or web page so that parts of the overall document can be distributed as individual documents for review or editing without disclosing the entire document with all chapters.
+
+.Advantages:
+. Reduces workload for reviewers
+. Allows granular access to material subject to NDAs
+. Reduces the impact of errors made in sections
+. Allows integration with git so as to have tight version control in an automated fashion
+. Can integrate other documents and material
+.. Text configuration data (JSON, txt, YAML, etc) can be linked as includes
+.. Diagrams and tables are linked as includes
+... Original CSVs are untouched and stay up to date in the document
+. Does NOT require word as the document is ASCII at heart
+.. Material is easiy tranferred to other documents
+.. Recombining the document and expanding or shrinking it are very simple and do not destroy the removed data
+.. Security for the document is high as any data that is removed is NOT present in the output but CAN be seen in the version control (github)
+. When integrated with git ownership of individual lines of documentation can be viewed
+.. The history of each line of documentation can be followed through each commit
+.. Merging the document with other documents is made simpler
+.. The document CAN be split across sources and repositories
+
+.plantuml description of the document structure
+image::./doc-structure.png[]
+
+=== Example sub section
+(This text is, outside of the sub section, in the chapter).
+
+include::./section-example/section-example.adoc[leveloffset=+3]
 
 ifdef::OLDlocaldir[]
 :localdir: {OLDlocaldir}

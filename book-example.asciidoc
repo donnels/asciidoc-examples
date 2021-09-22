@@ -26,4 +26,26 @@
 include::./chapter-example/chapter-example.asciidoc[leveloffset=+1]
 
 [#Chapter-logo-chapter]
-include::./chapter-logo/chapter-logo.asciidoc[leveloffset=+2]
+include::./chapter-logo/chapter-logo.asciidoc[leveloffset=+1]
+
+[#Chapter-examplelinks-chapter]
+== Example external links to other material
+.github link to an jupyter notebook of an example 3d Object
+link:https://github.com/donnels/3d-objects/blob/main/spoolholder.ipynb[^]
+
+The above is an example of dockerizing Juypter while adding an opensaced kernel to be able to describe the story of how an object was created. The ipynb is an extension assigned to jupyter notebooks and the kernel for openscad was added for a raspery Pi by Sean Donnellan so as to give jypter a home there in the VSR network. Normally Jupyter is used with Python or R for example for data analysis while mixing code and documentation. Output can also be PDF. When openen in the proper Jupyter environment it is interactive.
+
+.The object created for printing
+link:https://github.com/donnels/3d-objects/blob/main/spool.stl[^]
+
+[appendix]
+[#Chapter-Glossary]
+== Glossary
+include::./book-glossary.adoc[leveloffset=+1]
+
+[appendix]
+[#Chapter-Notation]
+include::./book-notation.adoc[leveloffset=+1]
+
+[#Copyright]
+include::./book-copyright.adoc[leveloffset=+1]

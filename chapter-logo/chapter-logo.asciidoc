@@ -32,20 +32,41 @@ endif::localdir[]
 
 == VSR logo description
 
-VSR is an abbreviation for Virtaul Space and Global Communications Research.
+VSR is an abbreviation for Virtual Space and Global Communications Research.
+The above is an imaginary company created by Sean Donnellan so as to facilitate progressing ideas without attachin them to a real company. The below is copyright Sean Donnellan as is Virtaul Space and Global Communications Research itself. Feel free to create another imaginary company and please use a different name for your invention.
+
 
 The VSR logo was created from a 2d table of 8x8 with 8 data points with only one data point in each row and column. This then was made 3 dimentional and the points are further distributed to be only one in each row and column no matter from which side the 3d cube is viewed.
+
 While it's entirely possible to just distribute the points down a straight line through the cube they are distributed to make the 8 corners of a further cube like object within the outter cube.
+
 The inner cube is skewed due to the constraints of the placements and it is this shape which is desired. 
+
 The overall idea behind this is that the inner cube when subtracted from the outer cube leaves a space within, virtual space, and it is defined by data points, nodes, in a multidimenional table, and connexions between the nodes, edges, that together represent a graph and an object. This represents the communication in Virtual Space and Global Communications Research.
+
 The original logo also has an at symbol in the center which is not shown in the SCAD file.
+
 The idea behind the @ was to make it clear that communications is being referred to but it is redundant because the inner cube/graph represents a network.
 The @ can ba added again to represent the applications that run across the network in virtual space.
+
 When shown as a wire frame the inner cube should be hollow, and the inner space should be empty. When shown as a solid the inner cube can be assumed to be hollow if one so wishes.
+
 When an @ is added to the logo it passes through both cubes and passes clearly through the inner space that would otherwise be hollow.
+
+The use of the nuber 8 is a bow to the 8 bits that make a byte.
+The use of the 8x8 and 8x8x8 is desired. Also the use of the 8 data points that comprise the inner cube which is also a graph are desired.
+
+When using only the inner cube for the logo the corners of the cube should be cubes so that the resulting cube has a complex shape and is not just a simple skewed cube but also has a clearly more complex geometry. 
+
+If using just the 8 corners of the inner cube for an animation these nodes should be cubes and no edges should be shown between them so that a complex dance of the cubes is visible as they rotate on one or more axis.
 
 .Example of inner logo with text as mix
 image::./VSR-textndLogoGreen.png[]
+
+[NOTE]
+====
+The above logo was just created ad-hoc for this document and does not signify an actual company. Also of note is that the logo is really just ad-hoc. It is not a final product but an indication of an idea.
+====
 
 .VSR logo scad file with diffreent options
 [source,openscad]

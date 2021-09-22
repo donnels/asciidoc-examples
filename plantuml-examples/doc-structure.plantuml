@@ -1,0 +1,44 @@
+@startuml
+title Asciidoc document structure with granular access
+footer (C) 2021 VSR - Author Sean Donnellan
+skinparam BackgroundColor #fff/aaf
+skinparam CardBackgroundColor #fff/green
+
+folder Book {
+    card "Table of Contents" as Book.toc
+    card "text and includes" as Book.text1
+    folder Chapter as Book.Chapter1 {
+        card "text and includes" as Book.Chapter1.text1
+        folder SubSection as Book.Chapter1.SubSection1 {
+            card "text and includes" as Book.Chapter1.SubSection1.text1
+        }
+    }
+    folder Chapter as Book.Chapter2 {
+        card "text and includes" as Book.Chapter2.text1
+        folder SubSection as Book.Chapter2.SubSection1 {
+            card "text and includes" as Book.Chapter2.SubSection1.text1
+        }
+    }
+    card "appendix Glossary" as Book.glossary
+    card "appendix Copyrights" as Book.copyright
+    card "appendix Notation" as Book.notation    
+}
+
+actor Owner
+actor Department1
+actor Department2
+actor Department3
+actor Department4
+actor Contractor1
+actor Contractor2
+
+Owner <--> Book : Can access all
+Department4 <--> Book : Can access all
+Department1 <--> Book.Chapter1 : Can access Chapter and below
+Contractor1 <--> Book.Chapter1.SubSection1 : Can access only the section
+Department2 <--> Book.Chapter2 : Can access Chapter and below
+Contractor2 <--> Book.Chapter2.SubSection1 : Can access only the section
+Department3 <--> Book.Chapter1 : Can access Chapter and below
+Department3 <--> Book.Chapter2 : Can access Chapter and below
+
+@enduml

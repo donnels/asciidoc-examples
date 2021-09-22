@@ -1,0 +1,19 @@
+
+<<<
+***
+
+© Copyright Virtual Space and Global Communications Research 2021
+
+.VSR
+
+VSR, the VSR logo are trademarks of Virtual Space and Global Communications Research, registered in no jurisdictions worldwide.
+Other product and service names might be trademarks of VSR or other companies.
+A current list of VSR trademarks is available on the Web at “Copyright and trademark information” at link:www.vsr.local[].
+
+This document is current as of the initial date of publication and may be changed by VSR at any time.
+Not all offerings are available in every country in which VSR operates.
+
+THE INFORMATION IN THIS DOCUMENT IS PROVIDED “AS IS” WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND ANY WARRANTY OR CONDITION OF NON INFRINGEMENT.
+VSR products are warranted according to the terms and conditions of the agreements under which they are provided.
+
+***

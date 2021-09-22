@@ -1,0 +1,66 @@
+= Notation
+This section contains examples of the notation used in the overall document.
+
+== Warnings and Callouts
+
+The style can be any one of the admonition labels:
+
+[NOTE]
+Note Benne
+
+[TIP]
+This is a tip
+
+[WARNING]
+This is a warning.
+
+[CAUTION]
+let me *caution* you.
+
+[IMPORTANT]
+This is important.
+
+
+== Sidebars
+[sidebar]
+.Related information
+--
+This is aside text.
+
+It is used to present information related to the main content.
+--
+
+== Lists
+
+.A numbered list of items
+. spoon
+. fork
+.. spork
+... spock
+..... star treck
+
+.A bulletted list
+* spoon
+* fork
+** spork
+*** spock
+**** Star treck
+
+.A TODO list
+* [x] Learn the AsciiDoc syntax
+* [x] Install AsciiDoc
+* [x] Write my document in AsciiDoc
+
+== Links, Quotes and Listings
+.A typical Link
+link:https://asciidoctor.org[^]
+
+.A Quote
+[quote, Douglas Adams]
+Don't Panic (Yet)
+
+.A Listing
+[listing]
+----
+ssh -J sean@9.154.199.101 sean@192.168.2.2
+----

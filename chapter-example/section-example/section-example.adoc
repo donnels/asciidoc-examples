@@ -35,6 +35,8 @@ ifndef::localdir[]
 endif::localdir[]
 :imagesdir: {localdir}
 
+(and this line is in the sub section)
+
 == example sub section
 With some test text here.
 
