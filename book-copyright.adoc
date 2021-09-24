@@ -6,6 +6,14 @@
 
 .VSR
 
+VSR is registered with link:https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers[iana.org ^]
+ as: 
+
+    Enterprise # 13425
+        Virtual Space Research
+            Sean Donnellan
+                postmaster&donnellan.de
+
 VSR, the VSR logo are trademarks of Virtual Space and Global Communications Research, registered in no jurisdictions worldwide.
 Other product and service names might be trademarks of VSR or other companies.
 A current list of VSR trademarks is available on the Web at “Copyright and trademark information” at link:www.vsr.local[].
