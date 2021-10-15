@@ -268,7 +268,7 @@ header:
     #right:
     #  content: 
     left:
-      content: image:VSR-logo.png[pdfwidth=2.24cm,pdfheight=0,91cm]
+      content: image:VSR-logo-space.png[pdfwidth=2.24cm,pdfheight=0,91cm]
     center:
       content: |
         {document-title} +
