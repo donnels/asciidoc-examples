@@ -33,16 +33,17 @@ endif::localdir[]
 == VSR logo description
 
 VSR is an abbreviation for Virtual Space and Global Communications Research.
-The above is an imaginary company created by Sean Donnellan so as to facilitate progressing ideas without attachin them to a real company. The below is copyright Sean Donnellan as is Virtaul Space and Global Communications Research itself. Feel free to create another imaginary company and please use a different name for your invention.
+The above is an imaginary company created by Sean Donnellan so as to facilitate progressing ideas without attaching them to a real company. The below is copyright Sean Donnellan as is Virtual Space and Global Communications Research itself. Feel free to create another imaginary company and please use a different name for your invention.
 
+=== Cube based logo
 
-The VSR logo was created from a 2d table of 8x8 with 8 data points with only one data point in each row and column. This then was made 3 dimentional and the points are further distributed to be only one in each row and column no matter from which side the 3d cube is viewed.
+The cube based VSR logo was created from a 2d table of 8x8 with 8 data points with only one data point in each row and column. This then was made 3 dimensional and the points are further distributed to be only one in each row and column no matter from which side the 3d cube is viewed.
 
-While it's entirely possible to just distribute the points down a straight line through the cube they are distributed to make the 8 corners of a further cube like object within the outter cube.
+While it's entirely possible to just distribute the points down a straight line through the cube they are distributed to make the 8 corners of a further cube like object within the outer cube.
 
 The inner cube is skewed due to the constraints of the placements and it is this shape which is desired. 
 
-The overall idea behind this is that the inner cube when subtracted from the outer cube leaves a space within, virtual space, and it is defined by data points, nodes, in a multidimenional table, and connexions between the nodes, edges, that together represent a graph and an object. This represents the communication in Virtual Space and Global Communications Research.
+The overall idea behind this is that the inner cube when subtracted from the outer cube leaves a space within, virtual space, and it is defined by data points, nodes, in a multidimensional table, and connexions between the nodes, edges, that together represent a graph and an object. This represents the communication in Virtual Space and Global Communications Research.
 
 The original logo also has an at symbol in the center which is not shown in the SCAD file.
 
@@ -53,7 +54,7 @@ When shown as a wire frame the inner cube should be hollow, and the inner space 
 
 When an @ is added to the logo it passes through both cubes and passes clearly through the inner space that would otherwise be hollow.
 
-The use of the nuber 8 is a bow to the 8 bits that make a byte.
+The use of the number 8 is a bow to the 8 bits that make a byte.
 The use of the 8x8 and 8x8x8 is desired. Also the use of the 8 data points that comprise the inner cube which is also a graph are desired.
 
 When using only the inner cube for the logo the corners of the cube should be cubes so that the resulting cube has a complex shape and is not just a simple skewed cube but also has a clearly more complex geometry. 
@@ -74,6 +75,34 @@ The above logo was just created ad-hoc for this document and does not signify an
 include::./VSR-cubeLogoV2.scad[]
 ----
 
+=== World/Space Logo
+The space logo was initially created for a VOIP phone which had a display and was used as the background for the menu system on the phone. 
+
+The aim was to throw a spotlight on the global communications part of Virtual Space and Global Communications Research. 
+The logo has a world icon with a few stars in the background and a red orbital streak from the left and pointing slightly up to the right. 
+The upward stroke is to imply an upward trend. 
+
+This alternative logo is for the imaginary communications dept. which is a subsidiary of VSaGCR and is essentially the GC part of the name. Assumed to have joined VSR after a merger and to be a wholly owned subsidiary that has its roots in communications and infrastructure. 
+
+The arrow head was originally red and due to an error displaying it is black. The error has not been corrected as it actually matches the original intent better and the original had a red arrow head because it was easier to draw so that the black one while not intended during the creation of the SVG has been left. VSR is emblazoned centrally on the earth icon which was chosen as it shows Europe which is the HQ of VSaGCR. 
+
+The logo was inspired by the NASA logo but the perspective was changed from space to earth showing the round earth and white text across it as opposed to a sphere with space in it. 
+
+The Cube logo concentrates on virtual space and multiple dimensions while the World/Space logo concentrates on more global realms and space as a means rather than the aim.
+
+Some objects that could be stars or satellites or both are shown left and right of the earth and are optional as the logo is designed to also potentially be a mission badge, in which case the global communications would be mapped along the trajectory of the orbit. 
+
+The original was created some time after 2009 and before 2014 and it's unclear when. I had planned to create one earlier and there had been some sketches but the original below was the first iteration that was used on a "product".
+
+.VSR World/Space logo
+image:./VSR-logo-space.svg[]
+
+.Original World/Space logo for VOIP phone
+image:./VSR-logo-space-old.png[]
+
+The original logo had a dark background and white "stars" so as to better highlight the white text of the menu items to the right of, and under, the logo.
+
+The new SVG version was created with inkscape and was not parametrically created like the cube logo.
 
 ifdef::OLDlocaldir[]
 :localdir: {OLDlocaldir}
