@@ -20,7 +20,7 @@
 :listing-caption: Listing
 :favicon: ./lib/favicon.ico
 :classification: Virtual Space and Global Communications Research Confidential
-//:title-logo-image: image:images/Book-84128.png[pdfwidth=3.9in,align=right]
+:title-logo-image: image:./chapter-logo/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
 
 [#Chapter-example-chapter]
 include::./chapter-example/chapter-example.asciidoc[leveloffset=+1]
