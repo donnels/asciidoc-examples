@@ -1,0 +1,20 @@
+@startuml
+title Graph Theory - Number sets
+footer (C)2022 Sean Donnellan
+skinparam backgroundcolor #fff/aaf
+skinoaram shadowing true
+
+
+rectangle "Complex Numbers - C\n{a+bi}" as C {
+rectangle "Real Numbers - R" as R {
+    rectangle "Rational Numbers - Q\n{a/b,2.5,...}" as Q {
+        rectangle "Integers - Z\n{...,-3,-2,-1,0,1,2,3,...}" as Z {
+            rectangle "natural numbers - N\n{0,1,2,3,...}" as N
+        }
+    }
+    rectangle "Irational Numbers -Qhat\n{!a/b,Pi,e,sqrt 2,...}" as Qh
+}
+rectangle "Imaginary Numbers - I\n{sqrt -1,i^2=-1,...}" as I
+}
+
+@enduml
