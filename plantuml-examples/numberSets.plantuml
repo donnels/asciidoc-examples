@@ -5,7 +5,7 @@ skinparam backgroundcolor #fff/aaf
 skinoaram shadowing true
 
 
-rectangle "Complex Numbers - C\n{a+bi}" as C {
+rectangle "Complex Numbers - C\n{a+bi,i,3}" as C {
 rectangle "Real Numbers - R" as R {
     rectangle "Rational Numbers - Q\n{a/b,2.5,...}" as Q {
         rectangle "Integers - Z\n{...,-3,-2,-1,0,1,2,3,...}" as Z {
