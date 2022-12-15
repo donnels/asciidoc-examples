@@ -21,7 +21,7 @@ jobs:
       - name: Make the PDFs and HTMLs
         id: asciidoc-2-html-and-pdf
         run: |
-          docker run -v "$PWD":/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -a allow-read-uri -D /documents/docs *.asciidoc
+          docker run -v "$PWD":/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -a allow-uri-read -D /documents/docs *.asciidoc
           docker run -v "$PWD":/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/docs *.asciidoc
 
       - name: Check for modified files
