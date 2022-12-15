@@ -43,8 +43,9 @@ link:https://www.auto.tuwien.ac.at/~mkoegler/index.php/eibnslu[^]
 
 The above was created by Sean because he saw the potential of the Arm platform for IoT and began exploring it before the Raspberry Pi existed and before the Iphone existed.
 
-image::https://github.com/donnels/openscad-examples/badge.svg[]
-        
+image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]            
+
+
 [appendix]
 [#Chapter-Glossary]
 == Glossary
