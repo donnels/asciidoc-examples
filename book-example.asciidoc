@@ -50,6 +50,11 @@ image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/b
 image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]
 |===
 
+.test table
+|===
+test cell
+|===
+
 [appendix]
 [#Chapter-Glossary]
 == Glossary
