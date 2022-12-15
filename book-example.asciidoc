@@ -45,14 +45,18 @@ The above was created by Sean because he saw the potential of the Arm platform f
 
 image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]            
 
-.status table    
+.status table
+[format=csv,separator=",",options="header"]    
 |===
-image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]
+status, comment
+image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge] , working?
 |===
 
 .test table
+[format=csv,separator=",",options="header"]    
 |===
-test cell
+status, comment
+test , working?
 |===
 
 [appendix]
