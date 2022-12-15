@@ -45,6 +45,10 @@ The above was created by Sean because he saw the potential of the Arm platform f
 
 image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]            
 
+.status table    
+|===
+image::https://github.com/donnels/openscad-examples/actions/workflows/adoc.yml/badge.svg[badge]
+|===
 
 [appendix]
 [#Chapter-Glossary]
