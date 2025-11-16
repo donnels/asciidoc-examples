@@ -1,0 +1,42 @@
+= Section 2
+ifdef::flag-doc[]
+:doc-sub: true
+:OLDlocaldir: {localdir}
+:OLDimagesdir: {imagesdir}
+:localdir: ./section2/
+endif::flag-doc[]
+ifndef::localdir[]
+:localdir: ./
+:flag-doc-section: true
+:toc: right
+:doctype: article
+:sectnums:
+:allow-uri-read: true
+:data-uri:
+endif::localdir[]
+:imagesdir: {localdir}images/
+
+//
+// CONTENT STARTS HERE
+//
+
+This is section 2.
+
+== Subsection Overview
+
+image::section2-diagram.png[]
+
+include::subsection1/README.adoc[leveloffset=+1]
+
+include::subsection2/README.adoc[leveloffset=+1]
+
+//
+// END OF DOCUMENT
+//
+
+ifdef::OLDlocaldir[]
+:localdir: {OLDlocaldir}
+:!OLDlocaldir:
+:imagesdir: {OLDimagesdir}
+:!OLDimagesdir:
+endif::OLDlocaldir[]

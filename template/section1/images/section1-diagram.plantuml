@@ -1,0 +1,10 @@
+@startuml
+skinparam backgroundcolor #fff/aaf
+skinparam shadowing 1
+footer ©2025 Sean Donnellan
+title Section 1 Diagram
+start
+:Section 1 Action;
+:Process section content;
+stop
+@enduml

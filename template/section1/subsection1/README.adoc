@@ -1,0 +1,48 @@
+= Subsection 1 (Section 1)
+ifdef::flag-doc[]
+:doc-sub: true
+:OLDlocaldir: {localdir}
+:OLDimagesdir: {imagesdir}
+:localdir: ./section1/subsection1/
+endif::flag-doc[]
+ifndef::flag-doc[]
+ifdef::flag-doc-section[]
+:doc-sub: true
+:OLDlocaldir: {localdir}
+:OLDimagesdir: {imagesdir}
+:localdir: ./subsection1/
+endif::flag-doc-section[]
+endif::flag-doc[]
+ifndef::localdir[]
+:localdir: ./
+:flag-doc-section-sub: true
+:toc: right
+:doctype: article
+:sectnums:
+:allow-uri-read: true
+:data-uri:
+endif::localdir[]
+:imagesdir: {localdir}images/
+
+//
+// CONTENT STARTS HERE
+//
+
+This is subsection 1 of section 1.
+
+== Details
+
+image::subsection1-diagram.png[]
+
+Some details here.
+
+//
+// END OF DOCUMENT
+//
+
+ifdef::OLDlocaldir[]
+:localdir: {OLDlocaldir}
+:!OLDlocaldir:
+:imagesdir: {OLDimagesdir}
+:!OLDimagesdir:
+endif::OLDlocaldir[]
