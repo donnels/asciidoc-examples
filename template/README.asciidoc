@@ -1,4 +1,15 @@
 = AsciiDoc Template with Conditional Rendering
+:filename: README
+:def-github-repo: asciidoc-examples
+:def-github-branch: main
+:def-org: Virtual Space and Global Communications Research
+:def-year: 2025
+:def-author: Sean Donnellan
+:def-classification: Confidential
+:def-github-url: github.com
+:def-github-user: donnels
+:def-github-pages-url: https://{def-github-user}.{def-github-url}/{def-github-repo}
+:def-github-repo-url: https://{def-github-url}/{def-github-user}/{def-github-repo}
 :toc: right
 :toclevels: 5
 :sectnums:
@@ -7,23 +18,27 @@
 :localdir: ./
 :imagesdir: ./images/
 :data-uri:
-
+include::./includes/book-head-formatting.adoc[]
 
 == Introduction
 
-Here is the logic diagram for conditional rendering:
+Start with the wiring diagram. It shows how attributes gate every include.
 
 image::asciidoc-logic.png[]
 
+== AIM
+Spell out the template rules.
+- Read well on GitHub.
+- Export cleanly to HTML and PDF.
+- Let every section and subsection build alone or inside the full book.
+
 == Conditional Rendering Flags
 
-In this template, the following AsciiDoc attributes are used for conditional rendering:
-
-- `:flag-doc:` - Set to true in the main document.
-- `:flag-doc-section:` - Set to true in sections.
-- `:flag-doc-section-sub:` - Set to true in subsections.
-
-These flags control path settings and content inclusion based on the document hierarchy.
+Three flags drive everything:
+- `:flag-doc:` tells the root it owns the render.
+- `:flag-doc-section:` lets a section reset paths when opened alone.
+- `:flag-doc-section-sub:` provides the same escape hatch for subsections.
+Use them to set and restore `:localdir:` and `:imagesdir:` so includes never break.
 
 == Filesystem Structure
 
@@ -62,13 +77,14 @@ template/
 
 == Automated Testing
 
-The helper script `README-tester.sh` runs every README (main document, sections, and subsections) through both Asciidoctor HTML and PDF builds using a containerized toolchain. The script now supports multiple container runtimes and will:
+`README-tester.sh` is the single command. It walks every README, renders HTML and PDF via `asciidoctor/docker-asciidoctor`, and drops the files under `template/docs/`.
 
-- Detect all README files automatically, so new sections are tested without manual updates.
-- Fail fast if any render emits warnings or exits with a non-zero status.
-- Work with Podman by default, fall back to Docker when Podman is unavailable, or respect a user-specified runtime.
+It always:
+- Discovers new sections automatically.
+- Fails on warnings or non-zero exits.
+- Prefers Podman, then Docker, unless you override it.
 
-Typical usage examples:
+Typical runs:
 
 .Default behavior (auto-select Podman or Docker)
 [source,BASH]
@@ -93,3 +109,19 @@ Environment overrides documented via `./README-tester.sh --help` let you change 
 include::section1/README.adoc[leveloffset=+1]
 
 include::section2/README.adoc[leveloffset=+1]
+
+//
+// END OF DOCUMENT
+//
+
+// notation appendix
+[appendix]
+include::includes/book-notation.adoc[leveloffset=+1]
+
+// glossary appendix
+[appendix]
+== Glossary
+include::includes/book-glossary.adoc[]
+
+//copyright at the end
+include::includes/book-copyright.adoc[]

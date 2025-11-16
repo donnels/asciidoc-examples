@@ -1,0 +1,56 @@
+ACI:: Cisco Spine Leaf Ethernet infrastructure
+API:: Interface to a program or system
+APIC:: management console for Cisco ACI
+ARP:: Address Resolution Protocol - Used primarily on IP networks to dynamically link MAC addresses to IP addresses
+BGP:: Border Gateway Protocol - Path-Vector Routing Protocol
+CIO:: Chief Information Officer - At VSR the team responsible for the, primarily green, VSR internal network
+DB:: Data Base
+DCI:: Data centre interconnect. A switch that connects multiple DCs
+DLSW:: Data Link Switching - Normally DLSW+ as DLSW is deprecated - Is used to extend non routed networks across IP networks (example: Enterprise Extender)
+DNS:: Domain Name Service - resolve hostnames to IP addresses
+DR:: Disaster Recovery
+ECMP:: Equal Cost Multi Path - A method used, amongst others, by spine leaf architectures in which all the links to all the spines are used at the same time thereby increasing the overall bandwidth
+Edge:: Is the connecting link between two Vertices (See Vertex). Also referred to as relationship
+Enterprise Extender:: A network device used to interconnect non IP communication to Mainframes across IP networks
+FICON:: A form of cabling used primarily for the Mainframe
+GI:: Global Infrastructure - The VSR Internal Networks owned by the VSR CIO
+GRE:: Generic Routing Encapsulation (GRE) is a tunneling protocol developed by Cisco Systems that can encapsulate a wide variety of network layer protocols inside virtual point-to-point links or point-to-multipoint links over an Internet Protocol network
+Graph:: A mathematical structure used to model pairwise relations between objects (see also Vertex and Edge)
+HA:: High Availability
+HMC:: Hardware Management Console - Used to manage IBM P and Z series hardware
+ICAP:: Intellectual Capital
+IPSEC:: Internet Protocol Security (IPsec) is a secure network protocol suite that authenticates and encrypts the packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks (VPNs).
+LAN:: Local Area Network - Generally a layer 2 ethernet Environment
+LDAP:: Lightweight Directory Access Protocol - Method often used to access credential databases
+LISP:: Locator/Identifier Separation Protocol - A protocol that allows L3 mobility to be implemented - commonly used by AT&T to migrate networks - Major limitations include inability to suport layer 2 and also problems with overlap and segments with multiple subnets and load balancers amongst others
+LPM:: Live Partition mobility - IBM technology to move Virtual machines between systems without interruption
+MAC:: Media Access Control - Usually a layer 2 Ethernet Address linked to an ethernet NIC
+MF:: MainFrame
+MPLS:: Multi Protocol Label Switching - Transport technology used primarily by WAN carriers
+NAT:: Network Address Translation
+NFV:: Network Function Virtualisation - Virtual Firewalls, routers, switches etc. - Often within a device that thereby then combines multiple modular functions
+NIC:: Network Interface Card
+Neo4J:: A particular graph DB
+Node:: See Vertex
+OSA:: An Ethernet NIC used in the Mainframe
+OSPF:: Open Shortest Path First - Routing Protocol for dynamic routing (often required in conjunction with Mainframes and VIPA)
+OTV:: Overlay transport virtualization (OTV) is a Cisco proprietary protocol for relaying layer 2 communications between layer 3 computer networks
+PAT:: Port Address translation - a form of NAT
+PBR:: Policy based Routing - Normal routing is destination based and policy based routing may involve other things like source or type
+Python:: A programming language
+QSFP:: Quad Small Form Pluggable - Removable network interface for switches and devices
+Relationship:: See Edge
+SDDC:: Software Defined Data Centre - A cloud like DC that is centrally managed
+SDWAN:: Software Defined WAN - A general Term for a centrally controlled and configured WAN - Usually with mixed Internet and MPLS instead of redundant MPLS
+SFP:: Small Form Pluggable - Removable network interface for switches and devices
+SQL:: Sequel Query Language - Database API
+Spine Leaf:: Network Architecture that connects leaf switches with access ports to central switches called spines. The spin switches are not connected to anything but leafs.
+VIPA:: Mainframe redundancy mechanism that involves dynamic routing of host routes.
+VLAN:: Virtual LAN - VLANS are used to create separate layer 2 domains within a switch or network environment - Used primarily for customer separation.
+VMotion:: VMware technology to move Virtual machines between systems without interruption
+VPN:: A virtual private network (VPN) extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network
+VRF:: Virtual Routing Facility - essentially a router within a router used for routing separating between customers etc.
+Vertex:: Is a fundamental unit of graphs, usually labeled and denoted by a circle. Also referred to as a node
+WAN:: Wide Area Network - The network between remote sites
+YAML:: YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialisation language
+YANG:: YANG (Yet Another Next Generation) is a data modelling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF

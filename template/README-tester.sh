@@ -87,6 +87,9 @@ echo "Using container runtime: ${CONTAINER_RUNTIME_CMD[*]}"
 echo "Using container image: ${CONTAINER_IMAGE}"
 
 ROOT_DIR="${SCRIPT_DIR}"
+DOCS_DIR="${ROOT_DIR}/docs"
+CONTAINER_DOCS_DIR="/documents/docs"
+mkdir -p "${DOCS_DIR}"
 
 run_render() {
   local doc_path="$1"
@@ -94,15 +97,26 @@ run_render() {
   local label="$3"
 
   local doc_dir="$(dirname "$doc_path")"
+  local doc_dir_rel="${doc_dir#./}"
   local doc_file="$(basename "$doc_path")"
   local container_dir="/documents"
 
-  if [[ "$doc_dir" != "." ]]; then
-    container_dir="${container_dir}/${doc_dir}"
+  if [[ -n "$doc_dir_rel" && "$doc_dir_rel" != "." ]]; then
+    container_dir="${container_dir}/${doc_dir_rel}"
   fi
 
+  local host_output_dir="${DOCS_DIR}"
+  local container_output_dir="${CONTAINER_DOCS_DIR}"
+  if [[ -n "$doc_dir_rel" && "$doc_dir_rel" != "." ]]; then
+    host_output_dir="${DOCS_DIR}/${doc_dir_rel}"
+    container_output_dir="${CONTAINER_DOCS_DIR}/${doc_dir_rel}"
+  fi
+
+  mkdir -p "${host_output_dir}"
+
   echo "Testing ${label} (${engine})..."
-  if ! output=$("${CONTAINER_RUNTIME_CMD[@]}" run -v "${ROOT_DIR}":/documents "${CONTAINER_IMAGE}" sh -c "cd ${container_dir} && ${engine} ${doc_file}" 2>&1); then
+  local render_cmd="set -e; mkdir -p ${container_output_dir} && cd ${container_dir} && ${engine} -D ${container_output_dir} ${doc_file}"
+  if ! output=$("${CONTAINER_RUNTIME_CMD[@]}" run -v "${ROOT_DIR}":/documents "${CONTAINER_IMAGE}" sh -c "${render_cmd}" 2>&1); then
     echo "$output"
     echo "${label} (${engine}) failed"
     exit 1

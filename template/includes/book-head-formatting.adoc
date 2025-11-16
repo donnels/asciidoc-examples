@@ -1,0 +1,19 @@
+//VERY DRAFT
+//this part goes into MAIN doc
+//stuff that is generic
+:data-uri:
+:allow-uri-read: true
+:source-highlighter: rouge
+:listing-caption: Listing
+:classification: {def-org} {def-classification}
+//PDF stuff
+:title-page:
+:icons: font
+:!reproducible:
+:pdf-page-size: A4
+:pdf-stylesdir: lib/themes
+:pdf-style: VSR-theme.yml
+:pdf-fontsdir: lib/fonts
+:title-logo-image: image:./chapter-logo/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
+//favicon
+:favicon: ./includes/Blue-graph.ico
