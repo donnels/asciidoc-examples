@@ -1,0 +1,78 @@
+@startuml AsciiDocLogic
+' Reference: https://pdf.plantuml.net/1.2020.22/PlantUML_Language_Reference_Guide_en.pdf
+title AsciiDoc Conditional Rendering Process Flow
+header Type: UML Activity diagram
+footer ©2025 Sean Donnellan
+skinparam BackgroundColor #fff/aaf
+skinparam shadowing 1
+skinparam activityBackgroundColor #fff/aaf
+skinparam ActivityDiamondBackgroundColor #fff/lawngreen
+skinparam ActivityStartColor #fff/blue
+skinparam ActivityStopColor #fff/blue
+skinparam PartitionBackgroundColor #aaf/fff
+skinparam ArrowColor #blue
+
+legend top left
+Filesystem Structure Legend:
+    Main Doc WD (repo)/
+    ├── images/ (./images)
+    ├── section-x/
+        ├── images/ (./section-x/images or ./images)
+        └── subsection-y/
+            └── images/ (./section-x/subsection-y/images or ./subsection-y/images or ./images)
+endlegend
+
+
+partition "Doc" {
+  start
+  :Start processing;
+  :Set <color:red><b>:flag-doc:</b></color> true;
+  :Apply header formatting;
+  :Process content;
+  if (Include sections?) then (yes)
+    partition "Doc Section" {
+'      :Start doc section;
+      if (<color:red><b>:flag-doc:</b></color> defined?) then (yes)
+        :Backup vars;
+        :Set <color:red><b>:flag-doc-section:</b></color> true;
+        :Set paths relative to main doc WD (e.g., section-x/images);
+      else (no)
+        :Set <color:red><b>:flag-doc-section:</b></color> true;
+        :Set paths relative to own WD (e.g., ./images);
+      endif
+      :Process content;
+      if (Include sub-sections?) then (yes)
+        partition "Doc Section Sub" {
+'          :Start doc section sub;
+          if (<color:red><b>:flag-doc:</b></color> defined?) then (yes)
+            :Backup vars;
+            :Set <color:red><b>:flag-doc-section-sub:</b></color> true;
+            :Set paths relative to main doc WD (e.g., section-x/subsection-y/images);
+          else (no)
+            if (<color:red><b>:flag-doc-section:</b></color> defined?) then (yes)
+              :Backup vars;
+              :Set <color:red><b>:flag-doc-section-sub:</b></color> true;
+              :Set paths relative to doc section WD (e.g., subsection-y/images);
+            else (no)
+              :Set paths relative to own WD (e.g., ./images);
+            endif
+          endif
+          :Process content;        
+          if (<color:red><b>:flag-doc:</b></color> defined? or <color:red><b>:flag-doc-section:</b></color> defined?) then (yes)
+            :Restore vars;
+          else (no)
+          endif
+        }
+      else (no)
+      endif
+      if (<color:red><b>:flag-doc:</b></color> defined?) then (yes)
+        :Restore vars;
+      else (no)
+      endif
+    }
+  else (no)
+  endif
+}
+stop
+
+@enduml
